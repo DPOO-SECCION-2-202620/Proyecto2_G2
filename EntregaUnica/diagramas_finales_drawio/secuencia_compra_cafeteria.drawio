@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-20T04:08:07Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="secuencia_compra_cafeteria-drawio" name="Secuencia 3: Realizar una compra en la cafetería">
+    <mxGraphModel dx="2200" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Secuencia 3: Realizar una compra en la cafetería" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=25;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="20" y="12" width="2160" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="448" width="0" height="1297" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="128" width="0" height="1617" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="alt  [datos, alérgenos, bebida restringida o existencias inválidas]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="900" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="alt  [precondiciones/puntos inválidos]  /  [validar cada producto e inventario]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="585" width="950" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="alt  [totales inválidos]  /  [totales calculados]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1000" width="950" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="loop  por cada ItemCafeteria: descontar y registrar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1250" width="980" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="agregarProducto() recibe alergenosInformados; no consulta Snack.getAlergenos()." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF2CC;strokeColor=#D6B656;fontColor=#493B16;fontSize=13;align=left;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="900" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="1. agregarProducto(producto, cantidad, alergenosInformados, instalacionRestringida)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="2. esCompradorSocio()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="455" y="240" />
+              <mxPoint x="455" y="262" />
+            </Array>
+            <mxPoint x="400" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="3. Bebida.esCaliente()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="caliente" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="305" as="sourcePoint" />
+            <mxPoint x="400" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="4. getCantidadDisponible()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="680" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="cantidadDisponible" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="375" as="sourcePoint" />
+            <mxPoint x="400" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="5. getPrecio()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="405" as="sourcePoint" />
+            <mxPoint x="680" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="precio" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="425" as="sourcePoint" />
+            <mxPoint x="400" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="«create»" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#667085;" vertex="1" parent="1">
+          <mxGeometry x="915" y="427" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="ItemCafeteria(producto, cantidad)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="960" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="6. items.add(nuevo)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="485" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="455" y="485" />
+              <mxPoint x="455" y="507" />
+            </Array>
+            <mxPoint x="400" y="507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="7. true" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="545" as="sourcePoint" />
+            <mxPoint x="120" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="8. registrarVentaCafeteria(venta, puntosRedimidos)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="570" as="sourcePoint" />
+            <mxPoint x="1240" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="9. estaRegistrada()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="615" as="sourcePoint" />
+            <mxPoint x="400" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="registrada" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="1240" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="10. getItems()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="665" as="sourcePoint" />
+            <mxPoint x="400" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="items" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="1240" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="11. getIdentificacionComprador()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="715" as="sourcePoint" />
+            <mxPoint x="400" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="identificacionComprador" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="1240" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="12. getPuntosFidelidad(identificacionComprador)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="765" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="765" />
+              <mxPoint x="1295" y="787" />
+            </Array>
+            <mxPoint x="1240" y="787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="saldoPuntos" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="788" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="788" />
+              <mxPoint x="1295" y="810" />
+            </Array>
+            <mxPoint x="1240" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="13. getProducto()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="815" as="sourcePoint" />
+            <mxPoint x="960" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="productoItem" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="838" as="sourcePoint" />
+            <mxPoint x="1240" y="838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="14. contains(productoItem)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="860" as="sourcePoint" />
+            <mxPoint x="1520" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="enCatalogo" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="883" as="sourcePoint" />
+            <mxPoint x="1240" y="883" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="15. getCantidad()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="905" as="sourcePoint" />
+            <mxPoint x="960" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" value="cantidadItem" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="928" as="sourcePoint" />
+            <mxPoint x="1240" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="16. getCantidadDisponible()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="950" as="sourcePoint" />
+            <mxPoint x="680" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" value="cantidadDisponible" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="973" as="sourcePoint" />
+            <mxPoint x="1240" y="973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45" value="17. getValorProductos()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1010" as="sourcePoint" />
+            <mxPoint x="400" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46" value="valorProductos" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1033" as="sourcePoint" />
+            <mxPoint x="1240" y="1033" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47" value="18. calcularTotales(0, puntosRedimidos)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1060" as="sourcePoint" />
+            <mxPoint x="400" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48" value="19. getValorProductos()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1090" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="455" y="1090" />
+              <mxPoint x="455" y="1112" />
+            </Array>
+            <mxPoint x="400" y="1112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" value="20. calcularImpuestos(base)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1115" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="455" y="1115" />
+              <mxPoint x="455" y="1137" />
+            </Array>
+            <mxPoint x="400" y="1137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50" value="21. calcularPropina(base)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="455" y="1140" />
+              <mxPoint x="455" y="1162" />
+            </Array>
+            <mxPoint x="400" y="1162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" value="22. true / false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1170" as="sourcePoint" />
+            <mxPoint x="1240" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" value="23. getProducto()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1275" as="sourcePoint" />
+            <mxPoint x="960" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53" value="productoItem" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="1298" as="sourcePoint" />
+            <mxPoint x="1240" y="1298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54" value="24. getCantidad()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1320" as="sourcePoint" />
+            <mxPoint x="960" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55" value="cantidadItem" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="1343" as="sourcePoint" />
+            <mxPoint x="1240" y="1343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="56" value="25. descontar(cantidadItem)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1365" as="sourcePoint" />
+            <mxPoint x="680" y="1365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57" value="26. registrarVenta(venta, puntosRedimidos)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="1400" />
+              <mxPoint x="1295" y="1422" />
+            </Array>
+            <mxPoint x="1240" y="1422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58" value="27. setRegistrada(true)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1425" as="sourcePoint" />
+            <mxPoint x="400" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59" value="28. add(venta)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1450" as="sourcePoint" />
+            <mxPoint x="1800" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60" value="29. getPuntosFidelidad(identificacionComprador)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1475" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="1475" />
+              <mxPoint x="1295" y="1497" />
+            </Array>
+            <mxPoint x="1240" y="1497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="61" value="saldoActual" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1498" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="1498" />
+              <mxPoint x="1295" y="1520" />
+            </Array>
+            <mxPoint x="1240" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62" value="30. getPuntosGenerados()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1520" as="sourcePoint" />
+            <mxPoint x="400" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="63" value="puntosGenerados" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1543" as="sourcePoint" />
+            <mxPoint x="1240" y="1543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64" value="31. put(identificacionComprador, saldo - puntosRedimidos + puntosGenerados)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1565" as="sourcePoint" />
+            <mxPoint x="2080" y="1565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65" value="32. true" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1620" as="sourcePoint" />
+            <mxPoint x="120" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="120" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="325" as="sourcePoint" />
+            <mxPoint x="120" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="395" as="sourcePoint" />
+            <mxPoint x="120" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="800" as="sourcePoint" />
+            <mxPoint x="120" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="70" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="990" as="sourcePoint" />
+            <mxPoint x="120" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="71" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1045" as="sourcePoint" />
+            <mxPoint x="120" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72" value="false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1185" as="sourcePoint" />
+            <mxPoint x="120" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="73" value="Socio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDE9E5;strokeColor=#E65243;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="venta: VentaCafeteria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="producto: ProductoCafeteria&lt;br&gt;(instancia Snack o Bebida)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="item: ItemCafeteria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="860" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="77" value="administracion: AdministracionComercial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="productosCafeteria: List&lt;ProductoCafeteria&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="79" value="ventas: List&lt;Venta&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="puntosFidelidad: Map&lt;String, Integer&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

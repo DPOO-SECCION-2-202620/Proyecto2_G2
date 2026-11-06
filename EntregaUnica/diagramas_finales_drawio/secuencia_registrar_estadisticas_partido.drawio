@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-20T04:08:07Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="secuencia_registrar_estadisticas_partido-drawio" name="Secuencia 2: Registrar estadísticas y sanciones de un partido interno de fútbol">
+    <mxGraphModel dx="2860" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2860" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Secuencia 2: Registrar estadísticas y sanciones de un partido interno de fútbol" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=25;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="20" y="12" width="2820" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="128" width="0" height="1437" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="1. puedeJugarse()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="380" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="2. getDeporte()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="640" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="deporteLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="245" as="sourcePoint" />
+            <mxPoint x="380" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="3. getMinimoJugadoresHabilitados()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="1160" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="minimoJugadores" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="295" as="sourcePoint" />
+            <mxPoint x="380" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="4. getDeporte()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="deporteLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="345" as="sourcePoint" />
+            <mxPoint x="380" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="5. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="370" as="sourcePoint" />
+            <mxPoint x="1160" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="nombreDeporteLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="395" as="sourcePoint" />
+            <mxPoint x="380" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="6. getDeporte()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="900" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="deporteVisitante" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="445" as="sourcePoint" />
+            <mxPoint x="380" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="7. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="1420" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="nombreDeporteVisitante" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="495" as="sourcePoint" />
+            <mxPoint x="380" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="8. getCategoria()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="520" as="sourcePoint" />
+            <mxPoint x="640" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="categoriaLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="545" as="sourcePoint" />
+            <mxPoint x="380" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="9. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="570" as="sourcePoint" />
+            <mxPoint x="1680" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="nombreCategoriaLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1680" y="595" as="sourcePoint" />
+            <mxPoint x="380" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="10. getCategoria()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="900" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="categoriaVisitante" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="645" as="sourcePoint" />
+            <mxPoint x="380" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="11. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="670" as="sourcePoint" />
+            <mxPoint x="1940" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="nombreCategoriaVisitante" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1940" y="695" as="sourcePoint" />
+            <mxPoint x="380" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="12. contarJugadoresHabilitados()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="720" as="sourcePoint" />
+            <mxPoint x="640" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="habilitadosLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="745" as="sourcePoint" />
+            <mxPoint x="380" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="13. contarJugadoresHabilitados()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="770" as="sourcePoint" />
+            <mxPoint x="900" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="habilitadosVisitante" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="795" as="sourcePoint" />
+            <mxPoint x="380" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="alt  [validaciones fallan → false]  /  [mismo deporte y categoría, ambos cumplen el mínimo → true]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="820" width="2500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="14. false" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="850" as="sourcePoint" />
+            <mxPoint x="120" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="15. true" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="890" as="sourcePoint" />
+            <mxPoint x="120" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" value="16. registrarEstadistica(estadistica)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="950" as="sourcePoint" />
+            <mxPoint x="380" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="17. getDeporte()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="990" as="sourcePoint" />
+            <mxPoint x="640" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" value="deporteLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1015" as="sourcePoint" />
+            <mxPoint x="380" y="1015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45" value="18. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1040" as="sourcePoint" />
+            <mxPoint x="1160" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46" value="nombreDeporteLocal" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1065" as="sourcePoint" />
+            <mxPoint x="380" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47" value="19. getJugador()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1095" as="sourcePoint" />
+            <mxPoint x="2200" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48" value="jugador" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="1120" as="sourcePoint" />
+            <mxPoint x="380" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" value="20. getEquipo()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1145" as="sourcePoint" />
+            <mxPoint x="2460" y="1145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50" value="equipoDelJugador" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="1170" as="sourcePoint" />
+            <mxPoint x="380" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" value="alt  [tipo correcto y jugador pertenece]  /  [estadística ignorada]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1080" width="700" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="Si es inválida, registrarEstadistica() termina sin agregarla ni informar rechazo." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF2CC;strokeColor=#D6B656;fontColor=#493B16;fontSize=13;align=left;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="1192" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="21. getJugador()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1245" as="sourcePoint" />
+            <mxPoint x="2200" y="1245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54" value="jugador" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="1270" as="sourcePoint" />
+            <mxPoint x="380" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55" value="22. getAmarillasAcumuladas()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1295" as="sourcePoint" />
+            <mxPoint x="2460" y="1295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="56" value="amarillasAcumuladas" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="1320" as="sourcePoint" />
+            <mxPoint x="380" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57" value="23. getTarjetasAmarillas()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1345" as="sourcePoint" />
+            <mxPoint x="2200" y="1345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58" value="amarillasDelPartido" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="1370" as="sourcePoint" />
+            <mxPoint x="380" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59" value="24. setAmarillasAcumuladas(amarillasAcumuladas + amarillasDelPartido)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1395" as="sourcePoint" />
+            <mxPoint x="2460" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60" value="alt  [acumulación &gt;= 2 → suspender] / [&lt; 2 → consultar generaSuspension()]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1410" width="700" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="25. setSuspendidoProximoPartido(true)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1440" as="sourcePoint" />
+            <mxPoint x="2460" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62" value="26. generaSuspension()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1470" as="sourcePoint" />
+            <mxPoint x="2200" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="63" value="generaSuspension" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="1495" as="sourcePoint" />
+            <mxPoint x="380" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64" value="27. setSuspendidoProximoPartido(true)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1520" as="sourcePoint" />
+            <mxPoint x="2460" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65" value="28. add(estadistica)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1550" as="sourcePoint" />
+            <mxPoint x="2720" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66" value="—" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="1575" as="sourcePoint" />
+            <mxPoint x="380" y="1575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67" value="29. void" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1590" as="sourcePoint" />
+            <mxPoint x="120" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68" value="Entrenador" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDE9E5;strokeColor=#E65243;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="69" value="partido: Partido" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="70" value="equipoLocal: Equipo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="540" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="71" value="equipoVisitante: Equipo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="800" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="deporteLocal: Deporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="73" value="deporteVisitante: Deporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="categoriaLocal: Categoria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="categoriaVisitante: Categoria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="estadistica: EstadisticaFutbol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="77" value="jugador: JugadorEquipo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="estadisticas: List&lt;EstadisticaPartido&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

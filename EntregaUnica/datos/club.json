@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "usuarios": [
+    {
+      "identificacion": "S-001",
+      "nombre": "Socio de prueba",
+      "edad": 20,
+      "login": "socio",
+      "password": "socio123",
+      "tipo": "socio"
+    },
+    {
+      "codigoDescuento": "ENT-001",
+      "login": "entrenador",
+      "password": "ent123",
+      "tipo": "entrenador"
+    },
+    {
+      "codigoDescuento": "FIS-001",
+      "login": "fisioterapeuta",
+      "password": "fis123",
+      "tipo": "fisioterapeuta"
+    },
+    {
+      "login": "admin",
+      "password": "admin123",
+      "tipo": "administrador"
+    }
+  ],
+  "equipos": [],
+  "partidos": [],
+  "competencias": [],
+  "instalaciones": [],
+  "disciplinas": [],
+  "inscripcionesDisciplina": [],
+  "reservas": [],
+  "partidosPractica": [],
+  "sesionesEntrenamiento": [],
+  "administracion": {
+    "articulos": [],
+    "productosCafeteria": [],
+    "ventas": [],
+    "turnos": [],
+    "solicitudesCambio": [],
+    "sugerencias": [],
+    "puntosFidelidad": {},
+    "codigosDescuento": {
+      "ENT-001": "entrenador",
+      "FIS-001": "fisioterapeuta"
+    },
+    "mensualidades": {},
+    "ubicacionTienda": {
+      "nombre": "Tienda"
+    },
+    "horaInicioAtencion": "06:00",
+    "horaFinAtencion": "22:00"
+  }
+}

@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-19T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram name="Diseño detallado · Parte 1 · Deportes de conjunto y competencias" id="detail-part-1">
+    <mxGraphModel dx="8040" dy="2280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8040" pageHeight="2280" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h1-title" value="Diseño detallado · Parte 1 · Deportes de conjunto y competencias" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="80" y="35" width="7880" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="h1-group" value="DEPORTES DE CONJUNTO · EQUIPOS · COMPETENCIAS" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="80" y="85" width="7880" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n1" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;ref. externa&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Socio&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.usuarios&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;Clase definida en otro módulo&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;La ficha completa está en su parte&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="420" x="160" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n2" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Deporte&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; nombre : String&lt;/div&gt;&lt;div&gt;&amp;minus; minimoJugadoresHabilitados : int&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;div&gt;&amp;minus; minimoJugadoresHabilitados : return&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ Deporte(nombre : String, minimoJugadoresHabilitados : int)&lt;/div&gt;&lt;div&gt;+ getNombre() : String&lt;/div&gt;&lt;div&gt;+ setNombre(nombre : String) : void&lt;/div&gt;&lt;div&gt;+ getMinimoJugadoresHabilitados() : int&lt;/div&gt;&lt;div&gt;+ setMinimoJugadoresHabilitados(minimoJugadoresHabilitados : int) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="260" width="420" x="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n3" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Categoria&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; nombre : String&lt;/div&gt;&lt;div&gt;&amp;minus; edadMinima : int&lt;/div&gt;&lt;div&gt;&amp;minus; edadMaxima : int&lt;/div&gt;&lt;div&gt;&amp;minus; true : return&lt;/div&gt;&lt;div&gt;&amp;minus; false : return&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;div&gt;&amp;minus; edadMinima : return&lt;/div&gt;&lt;div&gt;&amp;minus; edadMaxima : return&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ Categoria(nombre : String, edadMinima : int, edadMaxima : int)&lt;/div&gt;&lt;div&gt;+ admiteEdad(edad : int) : boolean&lt;/div&gt;&lt;div&gt;+ getNombre() : String&lt;/div&gt;&lt;div&gt;+ setNombre(nombre : String) : void&lt;/div&gt;&lt;div&gt;+ getEdadMinima() : int&lt;/div&gt;&lt;div&gt;+ setEdadMinima(edadMinima : int) : void&lt;/div&gt;&lt;div&gt;+ getEdadMaxima() : int&lt;/div&gt;&lt;div&gt;+ setEdadMaxima(edadMaxima : int) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="360" width="420" x="160" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n4" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Equipo&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; nombre : String&lt;/div&gt;&lt;div&gt;&amp;minus; cupoMaximo : int&lt;/div&gt;&lt;div&gt;&amp;minus; deporte : Deporte&lt;/div&gt;&lt;div&gt;&amp;minus; categoria : Categoria&lt;/div&gt;&lt;div&gt;&amp;minus; jugadores : List&amp;lt;JugadorEquipo&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;minus; true : return&lt;/div&gt;&lt;div&gt;&amp;minus; false : return&lt;/div&gt;&lt;div&gt;&amp;minus; jugador : JugadorEquipo&lt;/div&gt;&lt;div&gt;&amp;minus; false : return&lt;/div&gt;&lt;div&gt;&amp;minus; true : return&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; jugador : JugadorEquipo&lt;/div&gt;&lt;div&gt;&amp;minus; jugador : return&lt;/div&gt;&lt;div&gt;&amp;minus; cantidadHabilitados : int&lt;/div&gt;&lt;div&gt;&amp;minus; cantidadHabilitados : return&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;div&gt;&amp;minus; cupoMaximo : return&lt;/div&gt;&lt;div&gt;&amp;minus; deporte : return&lt;/div&gt;&lt;div&gt;&amp;minus; categoria : return&lt;/div&gt;&lt;div&gt;&amp;minus; jugadores : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ Equipo(nombre : String, cupoMaximo : int, deporte : Deporte, categoria : Categoria)&lt;/div&gt;&lt;div&gt;+ tieneCupo() : boolean&lt;/div&gt;&lt;div&gt;+ camisetaDisponible(numeroCamiseta : int) : boolean&lt;/div&gt;&lt;div&gt;+ inscribirJugador(socio : Socio, posicion : String, numeroCamiseta : int) : JugadorEquipo&lt;/div&gt;&lt;div&gt;+ contarJugadoresHabilitados() : int&lt;/div&gt;&lt;div&gt;+ getNombre() : String&lt;/div&gt;&lt;div&gt;+ setNombre(nombre : String) : void&lt;/div&gt;&lt;div&gt;+ getCupoMaximo() : int&lt;/div&gt;&lt;div&gt;+ setCupoMaximo(cupoMaximo : int) : void&lt;/div&gt;&lt;div&gt;+ getDeporte() : Deporte&lt;/div&gt;&lt;div&gt;+ setDeporte(deporte : Deporte) : void&lt;/div&gt;&lt;div&gt;+ getCategoria() : Categoria&lt;/div&gt;&lt;div&gt;+ setCategoria(categoria : Categoria) : void&lt;/div&gt;&lt;div&gt;+ getJugadores() : List&amp;lt;JugadorEquipo&amp;gt;&lt;/div&gt;&lt;div&gt;+ setJugadores(jugadores : List&amp;lt;JugadorEquipo&amp;gt;) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="680" width="480" x="1180" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n5" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;JugadorEquipo&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; jugador : Socio&lt;/div&gt;&lt;div&gt;&amp;minus; equipo : Equipo&lt;/div&gt;&lt;div&gt;&amp;minus; posicion : String&lt;/div&gt;&lt;div&gt;&amp;minus; numeroCamiseta : int&lt;/div&gt;&lt;div&gt;&amp;minus; amarillasAcumuladas : int&lt;/div&gt;&lt;div&gt;&amp;minus; suspendidoProximoPartido : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; suspendidoProximoPartido : return&lt;/div&gt;&lt;div&gt;&amp;minus; amarillasAcumuladas : return&lt;/div&gt;&lt;div&gt;&amp;minus; suspendidoProximoPartido : return&lt;/div&gt;&lt;div&gt;&amp;minus; jugador : return&lt;/div&gt;&lt;div&gt;&amp;minus; equipo : return&lt;/div&gt;&lt;div&gt;&amp;minus; posicion : return&lt;/div&gt;&lt;div&gt;&amp;minus; numeroCamiseta : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ JugadorEquipo(jugador : Socio, equipo : Equipo, posicion : String, numeroCamiseta : int)&lt;/div&gt;&lt;div&gt;+ estaSuspendido() : boolean&lt;/div&gt;&lt;div&gt;+ getAmarillasAcumuladas() : int&lt;/div&gt;&lt;div&gt;+ setAmarillasAcumuladas(amarillasAcumuladas : int) : void&lt;/div&gt;&lt;div&gt;+ isSuspendidoProximoPartido() : boolean&lt;/div&gt;&lt;div&gt;+ setSuspendidoProximoPartido(suspendidoProximoPartido : boolean) : void&lt;/div&gt;&lt;div&gt;+ getJugador() : Socio&lt;/div&gt;&lt;div&gt;+ setJugador(jugador : Socio) : void&lt;/div&gt;&lt;div&gt;+ getEquipo() : Equipo&lt;/div&gt;&lt;div&gt;+ setEquipo(equipo : Equipo) : void&lt;/div&gt;&lt;div&gt;+ getPosicion() : String&lt;/div&gt;&lt;div&gt;+ setPosicion(posicion : String) : void&lt;/div&gt;&lt;div&gt;+ getNumeroCamiseta() : int&lt;/div&gt;&lt;div&gt;+ setNumeroCamiseta(numeroCamiseta : int) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="520" width="480" x="1180" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n6" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Partido&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; fecha : LocalDate&lt;/div&gt;&lt;div&gt;&amp;minus; marcador : String&lt;/div&gt;&lt;div&gt;&amp;minus; equipoLocal : Equipo&lt;/div&gt;&lt;div&gt;&amp;minus; equipoVisitante : Equipo&lt;/div&gt;&lt;div&gt;&amp;minus; estadisticas : List&amp;lt;EstadisticaPartido&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;minus; minimoJugadores : int&lt;/div&gt;&lt;div&gt;&amp;minus; nombreDeporte : String&lt;/div&gt;&lt;div&gt;&amp;minus; tipoCorrecto : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; equipoJugador : Equipo&lt;/div&gt;&lt;div&gt;&amp;minus; perteneceAlPartido : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; estadisticaFutbol : EstadisticaFutbol&lt;/div&gt;&lt;div&gt;&amp;minus; jugador : JugadorEquipo&lt;/div&gt;&lt;div&gt;&amp;minus; amarillas : int&lt;/div&gt;&lt;div&gt;&amp;minus; fecha : return&lt;/div&gt;&lt;div&gt;&amp;minus; marcador : return&lt;/div&gt;&lt;div&gt;&amp;minus; equipoLocal : return&lt;/div&gt;&lt;div&gt;&amp;minus; equipoVisitante : return&lt;/div&gt;&lt;div&gt;&amp;minus; estadisticas : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ Partido(fecha : LocalDate, equipoLocal : Equipo, equipoVisitante : Equipo)&lt;/div&gt;&lt;div&gt;+ puedeJugarse() : boolean&lt;/div&gt;&lt;div&gt;+ registrarEstadistica(estadistica : EstadisticaPartido) : void&lt;/div&gt;&lt;div&gt;+ getFecha() : LocalDate&lt;/div&gt;&lt;div&gt;+ setFecha(fecha : LocalDate) : void&lt;/div&gt;&lt;div&gt;+ getMarcador() : String&lt;/div&gt;&lt;div&gt;+ setMarcador(marcador : String) : void&lt;/div&gt;&lt;div&gt;+ getEquipoLocal() : Equipo&lt;/div&gt;&lt;div&gt;+ setEquipoLocal(equipoLocal : Equipo) : void&lt;/div&gt;&lt;div&gt;+ getEquipoVisitante() : Equipo&lt;/div&gt;&lt;div&gt;+ setEquipoVisitante(equipoVisitante : Equipo) : void&lt;/div&gt;&lt;div&gt;+ getEstadisticas() : List&amp;lt;EstadisticaPartido&amp;gt;&lt;/div&gt;&lt;div&gt;+ setEstadisticas(estadisticas : List&amp;lt;EstadisticaPartido&amp;gt;) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="580" width="480" x="2380" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n7" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;abstract&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;EstadisticaPartido&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; jugador : JugadorEquipo&lt;/div&gt;&lt;div&gt;&amp;minus; jugador : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ EstadisticaPartido(jugador : JugadorEquipo)&lt;/div&gt;&lt;div&gt;+ getResumen() : String&lt;/div&gt;&lt;div&gt;+ getJugador() : JugadorEquipo&lt;/div&gt;&lt;div&gt;+ setJugador(jugador : JugadorEquipo) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="180" width="440" x="3480" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n8" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;EstadisticaFutbol&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; goles : int&lt;/div&gt;&lt;div&gt;&amp;minus; asistencias : int&lt;/div&gt;&lt;div&gt;&amp;minus; tarjetasAmarillas : int&lt;/div&gt;&lt;div&gt;&amp;minus; tarjetasRojas : int&lt;/div&gt;&lt;div&gt;&amp;minus; true : return&lt;/div&gt;&lt;div&gt;&amp;minus; false : return&lt;/div&gt;&lt;div&gt;&amp;minus; goles : return&lt;/div&gt;&lt;div&gt;&amp;minus; asistencias : return&lt;/div&gt;&lt;div&gt;&amp;minus; tarjetasAmarillas : return&lt;/div&gt;&lt;div&gt;&amp;minus; tarjetasRojas : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ EstadisticaFutbol(jugador : JugadorEquipo, goles : int, asistencias : int, tarjetasAmarillas : int, tarjetasRojas : int)&lt;/div&gt;&lt;div&gt;+ generaSuspension() : boolean&lt;/div&gt;&lt;div&gt;+ getResumen() : String&lt;/div&gt;&lt;div&gt;+ getGoles() : int&lt;/div&gt;&lt;div&gt;+ setGoles(goles : int) : void&lt;/div&gt;&lt;div&gt;+ getAsistencias() : int&lt;/div&gt;&lt;div&gt;+ setAsistencias(asistencias : int) : void&lt;/div&gt;&lt;div&gt;+ getTarjetasAmarillas() : int&lt;/div&gt;&lt;div&gt;+ setTarjetasAmarillas(tarjetasAmarillas : int) : void&lt;/div&gt;&lt;div&gt;+ getTarjetasRojas() : int&lt;/div&gt;&lt;div&gt;+ setTarjetasRojas(tarjetasRojas : int) : void&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="420" width="440" x="2940" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n9" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;EstadisticaBaloncesto&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; puntos : int&lt;/div&gt;&lt;div&gt;&amp;minus; rebotes : int&lt;/div&gt;&lt;div&gt;&amp;minus; puntos : return&lt;/div&gt;&lt;div&gt;&amp;minus; rebotes : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ EstadisticaBaloncesto(jugador : JugadorEquipo, puntos : int, rebotes : int)&lt;/div&gt;&lt;div&gt;+ getResumen() : String&lt;/div&gt;&lt;div&gt;+ getPuntos() : int&lt;/div&gt;&lt;div&gt;+ setPuntos(puntos : int) : void&lt;/div&gt;&lt;div&gt;+ getRebotes() : int&lt;/div&gt;&lt;div&gt;+ setRebotes(rebotes : int) : void&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="240" width="460" x="3480" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n10" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;EstadisticaVoleibol&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; aces : int&lt;/div&gt;&lt;div&gt;&amp;minus; bloqueos : int&lt;/div&gt;&lt;div&gt;&amp;minus; aces : return&lt;/div&gt;&lt;div&gt;&amp;minus; bloqueos : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ EstadisticaVoleibol(jugador : JugadorEquipo, aces : int, bloqueos : int)&lt;/div&gt;&lt;div&gt;+ getResumen() : String&lt;/div&gt;&lt;div&gt;+ getAces() : int&lt;/div&gt;&lt;div&gt;+ setAces(aces : int) : void&lt;/div&gt;&lt;div&gt;+ getBloqueos() : int&lt;/div&gt;&lt;div&gt;+ setBloqueos(bloqueos : int) : void&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="240" width="440" x="4020" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n11" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#1d4ed8;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;ref. externa&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;JugadorEquipo&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;Clase definida en otro módulo&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;La ficha completa está en su parte&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="400" x="4020" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n12" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;ref. externa&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Deporte&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;Clase definida en otro módulo&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;La ficha completa está en su parte&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="360" x="4740" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n13" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;ref. externa&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Categoria&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;Clase definida en otro módulo&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;La ficha completa está en su parte&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="360" x="4740" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n14" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#dbeafe;border-bottom:1px solid #1d4ed8;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;ref. externa&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Equipo&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.equipos&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;Clase definida en otro módulo&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div style=&quot;color:#64748b;font-style:italic&quot;&gt;La ficha completa está en su parte&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="340" x="4740" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n15" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#cffafe;border-bottom:1px solid #0e7490;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:10px;font-style:italic&quot;&gt;&amp;laquo;abstract&amp;raquo;&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Competencia&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.competencias&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; nombre : String&lt;/div&gt;&lt;div&gt;&amp;minus; entidadOrganizadora : String&lt;/div&gt;&lt;div&gt;&amp;minus; temporada : int&lt;/div&gt;&lt;div&gt;&amp;minus; nominaMinima : int&lt;/div&gt;&lt;div&gt;&amp;minus; deporte : Deporte&lt;/div&gt;&lt;div&gt;&amp;minus; categoriaHabilitada : Categoria&lt;/div&gt;&lt;div&gt;&amp;minus; participantes : List&amp;lt;Participante&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;minus; partidos : List&amp;lt;PartidoCompetencia&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; jugadoresHabilitados : int&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; nuevo : Participante&lt;/div&gt;&lt;div&gt;&amp;minus; nuevo : return&lt;/div&gt;&lt;div&gt;&amp;minus; rival : Participante&lt;/div&gt;&lt;div&gt;&amp;minus; rival : return&lt;/div&gt;&lt;div&gt;&amp;minus; partido : return&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;div&gt;&amp;minus; entidadOrganizadora : return&lt;/div&gt;&lt;div&gt;&amp;minus; temporada : return&lt;/div&gt;&lt;div&gt;&amp;minus; nominaMinima : return&lt;/div&gt;&lt;div&gt;&amp;minus; deporte : return&lt;/div&gt;&lt;div&gt;&amp;minus; categoriaHabilitada : return&lt;/div&gt;&lt;div&gt;&amp;minus; participantes : return&lt;/div&gt;&lt;div&gt;&amp;minus; partidos : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ Competencia(nombre : String, entidadOrganizadora : String, temporada : int, nominaMinima : int, deporte : Deporte, categoriaHabilitada : Categoria)&lt;/div&gt;&lt;div&gt;+ getFormato() : String&lt;/div&gt;&lt;div&gt;+ procesarPartido(partido : PartidoCompetencia) : void&lt;/div&gt;&lt;div&gt;+ inscribirEquipo(equipo : Equipo, nomina : List&amp;lt;JugadorEquipo&amp;gt;) : Participante&lt;/div&gt;&lt;div&gt;+ inscribirRival(nombre : String, institucion : String) : Participante&lt;/div&gt;&lt;div&gt;+ programarPartido(partido : PartidoCompetencia) : PartidoCompetencia&lt;/div&gt;&lt;div&gt;+ getNombre() : String&lt;/div&gt;&lt;div&gt;+ setNombre(nombre : String) : void&lt;/div&gt;&lt;div&gt;+ getEntidadOrganizadora() : String&lt;/div&gt;&lt;div&gt;+ setEntidadOrganizadora(entidadOrganizadora : String) : void&lt;/div&gt;&lt;div&gt;+ getTemporada() : int&lt;/div&gt;&lt;div&gt;+ setTemporada(temporada : int) : void&lt;/div&gt;&lt;div&gt;+ getNominaMinima() : int&lt;/div&gt;&lt;div&gt;+ setNominaMinima(nominaMinima : int) : void&lt;/div&gt;&lt;div&gt;+ getDeporte() : Deporte&lt;/div&gt;&lt;div&gt;+ setDeporte(deporte : Deporte) : void&lt;/div&gt;&lt;div&gt;+ getCategoriaHabilitada() : Categoria&lt;/div&gt;&lt;div&gt;+ setCategoriaHabilitada(categoriaHabilitada : Categoria) : void&lt;/div&gt;&lt;div&gt;+ getParticipantes() : List&amp;lt;Participante&amp;gt;&lt;/div&gt;&lt;div&gt;+ getPartidos() : List&amp;lt;PartidoCompetencia&amp;gt;&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="820" width="480" x="5280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n16" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#cffafe;border-bottom:1px solid #0e7490;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;CompetenciaLiga&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.competencias&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; tabla : TablaPosiciones&lt;/div&gt;&lt;div&gt;&amp;minus; nombreDeporte : String&lt;/div&gt;&lt;div&gt;&amp;minus; 3 : return&lt;/div&gt;&lt;div&gt;&amp;minus; 2 : return&lt;/div&gt;&lt;div&gt;&amp;minus; nombreDeporte : String&lt;/div&gt;&lt;div&gt;&amp;minus; 1 : return&lt;/div&gt;&lt;div&gt;&amp;minus; 0 : return&lt;/div&gt;&lt;div&gt;&amp;minus; filaLocal : FilaTabla&lt;/div&gt;&lt;div&gt;&amp;minus; filaVisitante : FilaTabla&lt;/div&gt;&lt;div&gt;&amp;minus; puntosPorVictoria : int&lt;/div&gt;&lt;div&gt;&amp;minus; puntosPorEmpate : int&lt;/div&gt;&lt;div&gt;&amp;minus; tabla : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ CompetenciaLiga(nombre : String, entidadOrganizadora : String, temporada : int, nominaMinima : int, deporte : Deporte, categoriaHabilitada : Categoria)&lt;/div&gt;&lt;div&gt;+ getFormato() : String&lt;/div&gt;&lt;div&gt;+ getPuntosPorVictoria() : int&lt;/div&gt;&lt;div&gt;+ getPuntosPorEmpate() : int&lt;/div&gt;&lt;div&gt;+ procesarPartido(partido : PartidoCompetencia) : void&lt;/div&gt;&lt;div&gt;+ getTabla() : TablaPosiciones&lt;/div&gt;&lt;div&gt;+ setTabla(tabla : TablaPosiciones) : void&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="380" width="440" x="5280" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n17" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#cffafe;border-bottom:1px solid #0e7490;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;Participante&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.competencias&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; nombre : String&lt;/div&gt;&lt;div&gt;&amp;minus; institucion : String&lt;/div&gt;&lt;div&gt;&amp;minus; equipoClub : Equipo&lt;/div&gt;&lt;div&gt;&amp;minus; nombre : return&lt;/div&gt;&lt;div&gt;&amp;minus; institucion : return&lt;/div&gt;&lt;div&gt;&amp;minus; equipoClub : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ Participante(nombre : String, institucion : String, equipoClub : Equipo)&lt;/div&gt;&lt;div&gt;+ esDelClub() : boolean&lt;/div&gt;&lt;div&gt;+ getNombre() : String&lt;/div&gt;&lt;div&gt;+ setNombre(nombre : String) : void&lt;/div&gt;&lt;div&gt;+ getInstitucion() : String&lt;/div&gt;&lt;div&gt;+ setInstitucion(institucion : String) : void&lt;/div&gt;&lt;div&gt;+ getEquipoClub() : Equipo&lt;/div&gt;&lt;div&gt;+ setEquipoClub(equipoClub : Equipo) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="320" width="420" x="6380" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n18" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#cffafe;border-bottom:1px solid #0e7490;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;PartidoCompetencia&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.competencias&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; fecha : LocalDate&lt;/div&gt;&lt;div&gt;&amp;minus; escenario : String&lt;/div&gt;&lt;div&gt;&amp;minus; local : Participante&lt;/div&gt;&lt;div&gt;&amp;minus; visitante : Participante&lt;/div&gt;&lt;div&gt;&amp;minus; marcadorLocal : int&lt;/div&gt;&lt;div&gt;&amp;minus; marcadorVisitante : int&lt;/div&gt;&lt;div&gt;&amp;minus; jugado : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; local : return&lt;/div&gt;&lt;div&gt;&amp;minus; visitante : return&lt;/div&gt;&lt;div&gt;&amp;minus; marcadorLocal : return&lt;/div&gt;&lt;div&gt;&amp;minus; fecha : return&lt;/div&gt;&lt;div&gt;&amp;minus; escenario : return&lt;/div&gt;&lt;div&gt;&amp;minus; local : return&lt;/div&gt;&lt;div&gt;&amp;minus; visitante : return&lt;/div&gt;&lt;div&gt;&amp;minus; marcadorLocal : return&lt;/div&gt;&lt;div&gt;&amp;minus; marcadorVisitante : return&lt;/div&gt;&lt;div&gt;&amp;minus; jugado : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ PartidoCompetencia(fecha : LocalDate, escenario : String, local : Participante, visitante : Participante)&lt;/div&gt;&lt;div&gt;+ registrarResultado(marcadorLocal : int, marcadorVisitante : int) : void&lt;/div&gt;&lt;div&gt;+ getGanador() : Participante&lt;/div&gt;&lt;div&gt;+ fueEmpate() : boolean&lt;/div&gt;&lt;div&gt;+ getFecha() : LocalDate&lt;/div&gt;&lt;div&gt;+ setFecha(fecha : LocalDate) : void&lt;/div&gt;&lt;div&gt;+ getEscenario() : String&lt;/div&gt;&lt;div&gt;+ setEscenario(escenario : String) : void&lt;/div&gt;&lt;div&gt;+ getLocal() : Participante&lt;/div&gt;&lt;div&gt;+ setLocal(local : Participante) : void&lt;/div&gt;&lt;div&gt;+ getVisitante() : Participante&lt;/div&gt;&lt;div&gt;+ setVisitante(visitante : Participante) : void&lt;/div&gt;&lt;div&gt;+ getMarcadorLocal() : int&lt;/div&gt;&lt;div&gt;+ getMarcadorVisitante() : int&lt;/div&gt;&lt;div&gt;+ isJugado() : boolean&lt;/div&gt;&lt;div&gt;+ setJugado(jugado : boolean) : void&lt;/div&gt;&lt;div&gt;+ toString() : String&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="640" width="480" x="6380" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n19" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#cffafe;border-bottom:1px solid #0e7490;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;TablaPosiciones&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.competencias&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; filas : List&amp;lt;FilaTabla&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;minus; fila : return&lt;/div&gt;&lt;div&gt;&amp;minus; null : return&lt;/div&gt;&lt;div&gt;&amp;minus; copia : List&amp;lt;FilaTabla&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;minus; filaActual : FilaTabla&lt;/div&gt;&lt;div&gt;&amp;minus; filaSiguiente : FilaTabla&lt;/div&gt;&lt;div&gt;&amp;minus; tieneMasPuntos : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; mismosPuntos : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; mejorDiferencia : boolean&lt;/div&gt;&lt;div&gt;&amp;minus; temporal : FilaTabla&lt;/div&gt;&lt;div&gt;&amp;minus; copia : return&lt;/div&gt;&lt;div&gt;&amp;minus; filas : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ TablaPosiciones()&lt;/div&gt;&lt;div&gt;+ agregarParticipante(participante : Participante) : void&lt;/div&gt;&lt;div&gt;+ buscarFila(participante : Participante) : FilaTabla&lt;/div&gt;&lt;div&gt;+ getFilasOrdenadas() : List&amp;lt;FilaTabla&amp;gt;&lt;/div&gt;&lt;div&gt;+ getFilas() : List&amp;lt;FilaTabla&amp;gt;&lt;/div&gt;&lt;div&gt;+ setFilas(filas : List&amp;lt;FilaTabla&amp;gt;) : void&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="360" width="440" x="7380" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-n20" parent="1" style="shape=rect;rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#0e7490;strokeWidth=1.4;fontColor=#1e293b;fontSize=10;spacing=0;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;border-collapse:collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background-color:#cffafe;border-bottom:1px solid #0e7490;padding:5px;text-align:center&quot;&gt;&lt;div style=&quot;font-size:13px;font-weight:bold&quot;&gt;FilaTabla&lt;/div&gt;&lt;div style=&quot;font-size:9px;color:#475569&quot;&gt;clubdeportivo.modelo.competencias&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;&amp;minus; participante : Participante&lt;/div&gt;&lt;div&gt;&amp;minus; partidosJugados : int&lt;/div&gt;&lt;div&gt;&amp;minus; ganados : int&lt;/div&gt;&lt;div&gt;&amp;minus; empatados : int&lt;/div&gt;&lt;div&gt;&amp;minus; perdidos : int&lt;/div&gt;&lt;div&gt;&amp;minus; puntos : int&lt;/div&gt;&lt;div&gt;&amp;minus; diferenciaMarcador : int&lt;/div&gt;&lt;div&gt;&amp;minus; participante : return&lt;/div&gt;&lt;div&gt;&amp;minus; partidosJugados : return&lt;/div&gt;&lt;div&gt;&amp;minus; ganados : return&lt;/div&gt;&lt;div&gt;&amp;minus; empatados : return&lt;/div&gt;&lt;div&gt;&amp;minus; perdidos : return&lt;/div&gt;&lt;div&gt;&amp;minus; puntos : return&lt;/div&gt;&lt;div&gt;&amp;minus; diferenciaMarcador : return&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-top:1px solid #cbd5e1;padding:5px;text-align:left;vertical-align:top;font-size:9px&quot;&gt;&lt;div&gt;+ FilaTabla(participante : Participante)&lt;/div&gt;&lt;div&gt;+ acumularResultado(aFavor : int, enContra : int, puntosPorVictoria : int, puntosPorEmpate : int) : void&lt;/div&gt;&lt;div&gt;+ getParticipante() : Participante&lt;/div&gt;&lt;div&gt;+ getPartidosJugados() : int&lt;/div&gt;&lt;div&gt;+ setPartidosJugados(partidosJugados : int) : void&lt;/div&gt;&lt;div&gt;+ getGanados() : int&lt;/div&gt;&lt;div&gt;+ setGanados(ganados : int) : void&lt;/div&gt;&lt;div&gt;+ getEmpatados() : int&lt;/div&gt;&lt;div&gt;+ setEmpatados(empatados : int) : void&lt;/div&gt;&lt;div&gt;+ getPerdidos() : int&lt;/div&gt;&lt;div&gt;+ setPerdidos(perdidos : int) : void&lt;/div&gt;&lt;div&gt;+ getPuntos() : int&lt;/div&gt;&lt;div&gt;+ setPuntos(puntos : int) : void&lt;/div&gt;&lt;div&gt;+ getDiferenciaMarcador() : int&lt;/div&gt;&lt;div&gt;+ setDiferenciaMarcador(diferenciaMarcador : int) : void&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="540" width="500" x="7380" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-e1" edge="1" parent="1" source="p1-n16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.6;endArrow=block;endFill=0;exitX=0.5000;exitY=0.0000;entryX=0.5000;entryY=1.0000;" target="p1-n15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5500" y="1030" />
+              <mxPoint x="5520" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e2" edge="1" parent="1" source="p1-n8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.6;endArrow=block;endFill=0;exitX=0.5000;exitY=0.0000;entryX=0.3636;entryY=1.0000;" target="p1-n7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3160" y="1350" />
+              <mxPoint x="3640" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e3" edge="1" parent="1" source="p1-n9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.6;endArrow=block;endFill=0;exitX=0.5217;exitY=0.0000;entryX=0.6364;entryY=1.0000;" target="p1-n7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3720" y="1350" />
+              <mxPoint x="3760" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e4" edge="1" parent="1" source="p1-n10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.6;endArrow=block;endFill=0;exitX=0.0000;exitY=0.5000;entryX=1.0000;entryY=0.6667;" target="p1-n7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3960" y="1730" />
+              <mxPoint x="3960" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e5" edge="1" parent="1" source="p1-n4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.3529;entryX=1.0000;entryY=0.4615;" target="p1-n2" value="deporte">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="450" />
+              <mxPoint x="640" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e5-119" connectable="0" parent="p1-e5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e5-120" connectable="0" parent="p1-e5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="deporte" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e5-121" connectable="0" parent="p1-e5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e6" edge="1" parent="1" source="p1-n4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.6471;entryX=1.0000;entryY=0.5000;" target="p1-n3" value="categoria">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="650" />
+              <mxPoint x="640" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e6-123" connectable="0" parent="p1-e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e6-124" connectable="0" parent="p1-e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="categoria" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e6-125" connectable="0" parent="p1-e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e7" edge="1" parent="1" source="p1-n4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;startArrow=diamond;startFill=1;exitX=0.5000;exitY=1.0000;entryX=0.5000;entryY=0.0000;" target="p1-n5" value="jugadores">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e7-127" connectable="0" parent="p1-e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e7-128" connectable="0" parent="p1-e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="jugadores" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e7-129" connectable="0" parent="p1-e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e8" edge="1" parent="1" source="p1-n5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.5000;entryX=1.0000;entryY=0.5714;" target="p1-n1" value="jugador">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1230" />
+              <mxPoint x="640" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e8-131" connectable="0" parent="p1-e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e8-132" connectable="0" parent="p1-e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="jugador" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e8-133" connectable="0" parent="p1-e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e9" edge="1" parent="1" source="p1-n6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.3448;entryX=1.0000;entryY=0.3529;" target="p1-n4" value="equipoLocal">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="1490" />
+              <mxPoint x="1720" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e9-135" connectable="0" parent="p1-e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e9-136" connectable="0" parent="p1-e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="equipoLocal" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e9-137" connectable="0" parent="p1-e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e10" edge="1" parent="1" source="p1-n6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.5000;exitY=0.0000;entryX=0.5000;entryY=0.0000;" target="p1-n4" value="equipoVisitante">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2620" y="150" />
+              <mxPoint x="1420" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e10-139" connectable="0" parent="p1-e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e10-140" connectable="0" parent="p1-e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="equipoVisitante" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e10-141" connectable="0" parent="p1-e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e11" edge="1" parent="1" source="p1-n6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;startArrow=diamond;startFill=1;exitX=1.0000;exitY=0.4828;entryX=0.0000;entryY=0.4444;" target="p1-n7" value="estadisticas">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3120" y="1570" />
+              <mxPoint x="3120" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e11-143" connectable="0" parent="p1-e11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e11-144" connectable="0" parent="p1-e11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="estadisticas" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e11-145" connectable="0" parent="p1-e11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e12" edge="1" parent="1" source="p1-n7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=1.0000;exitY=0.3333;entryX=0.0000;entryY=0.5714;" target="p1-n11" value="jugador">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3980" y="1170" />
+              <mxPoint x="3980" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e12-147" connectable="0" parent="p1-e12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e12-148" connectable="0" parent="p1-e12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="jugador" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e12-149" connectable="0" parent="p1-e12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e13" edge="1" parent="1" source="p1-n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.3415;entryX=1.0000;entryY=0.5714;" target="p1-n12" value="deporte">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5160" y="450" />
+              <mxPoint x="5160" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e13-167" connectable="0" parent="p1-e13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e13-168" connectable="0" parent="p1-e13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="deporte" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e13-169" connectable="0" parent="p1-e13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e14" edge="1" parent="1" source="p1-n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.6585;entryX=1.0000;entryY=0.5714;" target="p1-n13" value="categoriaHabilitada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5160" y="710" />
+              <mxPoint x="5160" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e14-171" connectable="0" parent="p1-e14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e14-172" connectable="0" parent="p1-e14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="categoriaHabilitada" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e14-173" connectable="0" parent="p1-e14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e15" edge="1" parent="1" source="p1-n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;startArrow=diamond;startFill=1;exitX=1.0000;exitY=0.3415;entryX=0.0000;entryY=0.3750;" target="p1-n17" value="participantes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6320" y="450" />
+              <mxPoint x="6320" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e15-175" connectable="0" parent="p1-e15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e15-176" connectable="0" parent="p1-e15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="participantes" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e15-177" connectable="0" parent="p1-e15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e16" edge="1" parent="1" source="p1-n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;startArrow=diamond;startFill=1;exitX=1.0000;exitY=0.6585;entryX=0.0000;entryY=0.5000;" target="p1-n18" value="partidos">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6320" y="710" />
+              <mxPoint x="6320" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e16-179" connectable="0" parent="p1-e16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e16-180" connectable="0" parent="p1-e16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="partidos" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e16-181" connectable="0" parent="p1-e16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e17" edge="1" parent="1" source="p1-n17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.4762;exitY=0.0000;entryX=0.4706;entryY=0.0000;" target="p1-n14" value="equipoClub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6580" y="110" />
+              <mxPoint x="4900" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e17-183" connectable="0" parent="p1-e17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e17-184" connectable="0" parent="p1-e17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="equipoClub" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e17-185" connectable="0" parent="p1-e17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e18" edge="1" parent="1" source="p1-n18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.3333;exitY=0.0000;entryX=0.3333;entryY=1.0000;" target="p1-n17" value="local">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6540" y="550" />
+              <mxPoint x="6520" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e18-187" connectable="0" parent="p1-e18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e18-188" connectable="0" parent="p1-e18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="local" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e18-189" connectable="0" parent="p1-e18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e19" edge="1" parent="1" source="p1-n18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.6667;exitY=0.0000;entryX=0.6667;entryY=1.0000;" target="p1-n17" value="visitante">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6700" y="550" />
+              <mxPoint x="6660" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e19-191" connectable="0" parent="p1-e19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e19-192" connectable="0" parent="p1-e19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="visitante" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e19-193" connectable="0" parent="p1-e19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e20" edge="1" parent="1" source="p1-n16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;startArrow=diamond;startFill=1;exitX=1.0000;exitY=0.5263;entryX=0.0000;entryY=0.5000;" target="p1-n19" value="tabla">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5780" y="1290" />
+              <mxPoint x="5780" y="750" />
+              <mxPoint x="5720" y="750" />
+              <mxPoint x="5720" y="250" />
+              <mxPoint x="7320" y="250" />
+              <mxPoint x="7320" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e20-195" connectable="0" parent="p1-e20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e20-196" connectable="0" parent="p1-e20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="tabla" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e20-197" connectable="0" parent="p1-e20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e21" edge="1" parent="1" source="p1-n19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;startArrow=diamond;startFill=1;exitX=0.5000;exitY=1.0000;entryX=0.4800;entryY=0.0000;" target="p1-n20" value="filas">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7600" y="710" />
+              <mxPoint x="7620" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e21-199" connectable="0" parent="p1-e21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e21-200" connectable="0" parent="p1-e21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="filas" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e21-201" connectable="0" parent="p1-e21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e22" edge="1" parent="1" source="p1-n20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=1.2;endArrow=none;exitX=0.0000;exitY=0.5185;entryX=1.0000;entryY=0.5000;" target="p1-n17" value="participante">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6860" y="1050" />
+              <mxPoint x="6860" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e22-203" connectable="0" parent="p1-e22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e22-204" connectable="0" parent="p1-e22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="participante" vertex="1">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-e22-205" connectable="0" parent="p1-e22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#334155;labelBackgroundColor=#ffffff;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.88" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1-note" value="El diagrama refleja las clases implementadas. Partido es concreto; PartidoCompetencia es independiente. Tarjeta y Suspension no existen como clases en el código actual." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff7ed;strokeColor=#c2410c;fontColor=#334155;fontSize=11;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2130" width="7880" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

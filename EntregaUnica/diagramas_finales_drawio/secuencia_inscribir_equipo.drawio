@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-20T04:08:07Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="secuencia_inscribir_equipo-drawio" name="Secuencia 1: Inscribir un equipo en una competencia">
+    <mxGraphModel dx="2480" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2480" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Secuencia 1: Inscribir un equipo en una competencia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=25;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="20" y="12" width="2440" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="860" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="1030" width="0" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="shape=line;html=1;strokeColor=#AEB6BF;dashed=1;dashPattern=5 6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="128" width="0" height="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="1. inscribirEquipo(equipo, nomina)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="170" as="sourcePoint" />
+            <mxPoint x="360" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="2. getCategoria()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="220" as="sourcePoint" />
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="categoria" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="245" as="sourcePoint" />
+            <mxPoint x="360" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="3. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="275" as="sourcePoint" />
+            <mxPoint x="860" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="nombreCategoria" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="4. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="325" as="sourcePoint" />
+            <mxPoint x="1110" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="nombreCategoriaHabilitada" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="350" as="sourcePoint" />
+            <mxPoint x="360" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="alt  [categorías distintas → devuelve null]  /  [categorías iguales → continúa]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="2220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="5. null" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="110" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="6. getDeporte()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="475" as="sourcePoint" />
+            <mxPoint x="610" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="deporteEquipo" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="7. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="525" as="sourcePoint" />
+            <mxPoint x="1360" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="nombreDeporteEquipo" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="550" as="sourcePoint" />
+            <mxPoint x="360" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="8. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="575" as="sourcePoint" />
+            <mxPoint x="1610" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="nombreDeporteCompetencia" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="600" as="sourcePoint" />
+            <mxPoint x="360" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="alt  [deportes distintos → devuelve null]  /  [deportes iguales → continúa]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="610" width="2220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="9. null" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="650" as="sourcePoint" />
+            <mxPoint x="110" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="loop  por cada jugador de nomina" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="700" width="600" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="10. estaSuspendido()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="745" as="sourcePoint" />
+            <mxPoint x="1860" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="suspendido" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="770" as="sourcePoint" />
+            <mxPoint x="360" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="alt  [jugadoresHabilitados &lt; nominaMinima → null]  /  [nómina válida → crear participante]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#718096;strokeWidth=1.5;dashed=1;dashPattern=7 5;fontColor=#344054;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=9;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="875" width="2220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="11. null" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="920" as="sourcePoint" />
+            <mxPoint x="110" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="12. getNombre()" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="975" as="sourcePoint" />
+            <mxPoint x="610" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="nombreEquipo" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1000" as="sourcePoint" />
+            <mxPoint x="360" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="«create»" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#667085;" vertex="1" parent="1">
+          <mxGeometry x="2065" y="1012" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="Participante(nombreEquipo, &quot;Club Deportivo Seneca&quot;, equipo)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1035" as="sourcePoint" />
+            <mxPoint x="2110" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="13. add(nuevo)" style="edgeStyle=none;html=1;rounded=0;strokeColor=#30343B;strokeWidth=1.8;endArrow=block;endFill=1;fontColor=#202124;fontSize=14;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1080" as="sourcePoint" />
+            <mxPoint x="2360" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="—" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2360" y="1105" as="sourcePoint" />
+            <mxPoint x="360" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" value="14. nuevo: Participante" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=7 6;strokeColor=#666666;strokeWidth=1.7;endArrow=open;endFill=0;fontColor=#666666;fontSize=14;fontStyle=2;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1135" as="sourcePoint" />
+            <mxPoint x="110" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="Administrador" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDE9E5;strokeColor=#E65243;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="10" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="competencia: Competencia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="equipo: Equipo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="510" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="categoriaEquipo: Categoria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="760" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="categoriaHabilitada: Categoria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="deporteEquipo: Deporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="deporte: Deporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="jugador: JugadorEquipo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="nuevo: Participante" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F1FB;strokeColor=#4C9BE8;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="participantes: List&lt;Participante&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#D9A514;strokeWidth=2;fontColor=#202124;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="72" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="opt [suspendido == false]: incrementa el contador local" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#FFF2CC;strokeColor=#D6B656;fontColor=#493B16;fontSize=13;align=left;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="805" width="590" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

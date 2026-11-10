@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2020" height="1554" viewBox="0 0 2020 1554" font-family="Arial, Helvetica, sans-serif">
+<rect width="2020" height="1554" fill="#fff"/>
+<defs><marker id="f" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#30343B"/></marker><marker id="a" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L12,6 L0,12" fill="none" stroke="#666" stroke-width="1.5"/></marker></defs>
+<text x="1010.0" y="44" font-size="22" font-weight="bold" fill="#1F2937" text-anchor="middle">Secuencia: Inscribir a una persona en un torneo individual (HU-TOR-03, HU-TOR-05, HU-TOR-06)</text>
+<line x1="160" y1="140" x2="160" y2="1534" stroke="#AEB6BF" stroke-width="2" stroke-dasharray="5 6"/>
+<rect x="10" y="90" width="300" height="50" rx="8" fill="#FDE9E5" stroke="#E65243" stroke-width="2"/><text x="160" y="121" font-size="14" font-weight="bold" text-anchor="middle" fill="#202124">Socio / participante</text>
+<line x1="560" y1="140" x2="560" y2="1534" stroke="#AEB6BF" stroke-width="2" stroke-dasharray="5 6"/>
+<rect x="410" y="90" width="300" height="50" rx="8" fill="#EEF2F6" stroke="#64748B" stroke-width="2"/><text x="560" y="121" font-size="14" font-weight="bold" text-anchor="middle" fill="#202124">consola: interfaz de consola</text>
+<line x1="960" y1="140" x2="960" y2="1534" stroke="#AEB6BF" stroke-width="2" stroke-dasharray="5 6"/>
+<rect x="810" y="90" width="300" height="50" rx="8" fill="#E7F1FB" stroke="#4C9BE8" stroke-width="2"/><text x="960" y="121" font-size="14" font-weight="bold" text-anchor="middle" fill="#202124">club: Club</text>
+<line x1="1360" y1="140" x2="1360" y2="1534" stroke="#AEB6BF" stroke-width="2" stroke-dasharray="5 6"/>
+<rect x="1210" y="90" width="300" height="50" rx="8" fill="#E0F7FA" stroke="#0E7490" stroke-width="2"/><text x="1360" y="121" font-size="14" font-weight="bold" text-anchor="middle" fill="#202124">torneo: Torneo</text>
+<line x1="1760" y1="140" x2="1760" y2="1534" stroke="#AEB6BF" stroke-width="2" stroke-dasharray="5 6"/>
+<rect x="1610" y="90" width="300" height="50" rx="8" fill="#FFF4D6" stroke="#D9A514" stroke-width="2"/><text x="1760" y="121" font-size="14" font-weight="bold" text-anchor="middle" fill="#202124">participante: ParticipanteTorneo</text>
+<rect x="600" y="494" width="720" height="154" fill="none" stroke="#718096" stroke-width="1.4" stroke-dasharray="7 5"/>
+<path d="M600,494 h46 v16 l-8,8 h-38 z" fill="#EEF2F6" stroke="#718096"/><text x="606" y="511" font-size="13" font-weight="bold" fill="#344054">opt</text>
+<text x="656" y="511" font-size="12" font-style="italic" fill="#344054">[usuario es Empleado]</text>
+<rect x="1000" y="874" width="960" height="278" fill="none" stroke="#718096" stroke-width="1.4" stroke-dasharray="7 5"/>
+<path d="M1000,874 h46 v16 l-8,8 h-38 z" fill="#EEF2F6" stroke="#718096"/><text x="1006" y="891" font-size="13" font-weight="bold" fill="#344054">alt</text>
+<text x="1056" y="891" font-size="12" font-style="italic" fill="#344054">[enEtapaPreferencial(fecha) y esElegible(id) y queda cupo reservado]</text>
+<line x1="1000" y1="970" x2="1960" y2="970" stroke="#718096" stroke-dasharray="7 5"/>
+<text x="1008" y="987" font-size="12" font-style="italic" fill="#344054">[queda cupo regular]</text>
+<line x1="1000" y1="1068" x2="1960" y2="1068" stroke="#718096" stroke-dasharray="7 5"/>
+<text x="1008" y="1085" font-size="12" font-style="italic" fill="#344054">[sin cupo]</text>
+<rect x="100" y="324" width="1860" height="1108" fill="none" stroke="#718096" stroke-width="1.4" stroke-dasharray="7 5"/>
+<path d="M100,324 h46 v16 l-8,8 h-38 z" fill="#EEF2F6" stroke="#718096"/><text x="106" y="341" font-size="13" font-weight="bold" fill="#344054">alt</text>
+<text x="156" y="341" font-size="12" font-style="italic" fill="#344054">[torneo == null  o  modalidad == EQUIPO]</text>
+<line x1="100" y1="406" x2="1960" y2="406" stroke="#718096" stroke-dasharray="7 5"/>
+<text x="108" y="423" font-size="12" font-style="italic" fill="#344054">[torneo individual o de dobles]</text>
+<line x1="160" y1="190" x2="560" y2="190" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="360.0" y="183" font-size="12.5" text-anchor="middle" fill="#202124" >1. elige torneo y confirma la inscripción</text>
+<line x1="560" y1="238" x2="960" y2="238" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="760.0" y="231" font-size="12.5" text-anchor="middle" fill="#202124" >2. inscribirEnTorneo(nombreTorneo, usuario, null, hoy)</text>
+<path d="M960,286 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1014" y="301" font-size="12.5" fill="#202124">3. buscarTorneo(nombreTorneo) : Torneo</text>
+<line x1="960" y1="372" x2="560" y2="372" stroke="#666" stroke-width="1.5" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="760.0" y="365" font-size="12.5" text-anchor="middle" fill="#666" font-style="italic">false</text>
+<path d="M960,456 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1014" y="471" font-size="12.5" fill="#202124">4. usuarios.contains(usuario)  /  vinculacionDe(usuario)</text>
+<path d="M960,542 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1014" y="557" font-size="12.5" fill="#202124">5. empleadoTieneTurnoDuranteTorneo(login, torneo)</text>
+<path d="M980,584 h348 l12,12 v38 h-360 z" fill="#FFF2CC" stroke="#D6B656"/>
+<text x="988" y="602" font-size="12" fill="#493B16">Si tiene cualquier turno entre fechaInicio y fechaFin →</text>
+<text x="988" y="617" font-size="12" fill="#493B16">devuelve false (HU-TOR-06)</text>
+<path d="M960,682 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1014" y="697" font-size="12.5" fill="#202124">6. rankingDe(identificacion, deporteODisciplina)</text>
+<line x1="960" y1="740" x2="1760" y2="740" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1360.0" y="733" font-size="12.5" text-anchor="middle" fill="#202124" >7. «create» ParticipanteTorneo(id, nombre, JUGADOR, vinculacion, integrantes, ranking)</text>
+<line x1="960" y1="788" x2="1360" y2="788" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1160.0" y="781" font-size="12.5" text-anchor="middle" fill="#202124" >8. inscribir(participante, fecha)</text>
+<path d="M1360,836 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1414" y="851" font-size="12.5" fill="#202124">9. getEstado(fecha) == ABIERTO, estaCompleto(), sin repetidos</text>
+<path d="M1380,906 h328 l12,12 v38 h-340 z" fill="#FFF2CC" stroke="#D6B656"/>
+<text x="1388" y="924" font-size="12" fill="#493B16">Usa un cupo preferencial (20 % redondeado hacia</text>
+<text x="1388" y="939" font-size="12" fill="#493B16">arriba)</text>
+<path d="M1380,1004 h328 l12,12 v38 h-340 z" fill="#FFF2CC" stroke="#D6B656"/>
+<text x="1388" y="1022" font-size="12" fill="#493B16">Usa un cupo regular. Tras la fecha límite, todos los</text>
+<text x="1388" y="1037" font-size="12" fill="#493B16">cupos son regulares</text>
+<line x1="1360" y1="1118" x2="960" y2="1118" stroke="#666" stroke-width="1.5" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1160.0" y="1111" font-size="12.5" text-anchor="middle" fill="#666" font-style="italic">false  (sin cobrar)</text>
+<path d="M1360,1186 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1414" y="1201" font-size="12.5" fill="#202124">10. calcularCobro(participante)</text>
+<line x1="1360" y1="1244" x2="1760" y2="1244" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1560.0" y="1237" font-size="12.5" text-anchor="middle" fill="#202124" >11. registrarPago(monto)   (0 si es recreativo o empleado)</text>
+<path d="M1360,1292 h46 v22 h-46" fill="none" stroke="#30343B" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1414" y="1307" font-size="12.5" fill="#202124">12. registrarEvento(fecha, &quot;Inscripcion de ...&quot;)</text>
+<line x1="1360" y1="1350" x2="960" y2="1350" stroke="#666" stroke-width="1.5" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1160.0" y="1343" font-size="12.5" text-anchor="middle" fill="#666" font-style="italic">true</text>
+<line x1="960" y1="1398" x2="560" y2="1398" stroke="#666" stroke-width="1.5" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="760.0" y="1391" font-size="12.5" text-anchor="middle" fill="#666" font-style="italic">true</text>
+<line x1="560" y1="1466" x2="160" y2="1466" stroke="#666" stroke-width="1.5" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="360.0" y="1459" font-size="12.5" text-anchor="middle" fill="#666" font-style="italic">13. muestra confirmación y cupos disponibles</text>
+</svg>

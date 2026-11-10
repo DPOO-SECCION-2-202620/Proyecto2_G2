@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2480" height="1900" viewBox="0 0 2480 1900" font-family="Arial, Helvetica, sans-serif">
+<rect width="2480" height="1900" fill="#ffffff"/>
+<defs><marker id="her" viewBox="0 0 20 20" refX="19" refY="10" markerWidth="18" markerHeight="18" orient="auto"><path d="M1,1 L19,10 L1,19 z" fill="#fff" stroke="#475569" stroke-width="1.6"/></marker><marker id="open" viewBox="0 0 20 20" refX="19" refY="10" markerWidth="12" markerHeight="12" orient="auto"><path d="M1,2 L19,10 L1,18" fill="none" stroke="#475569" stroke-width="2"/></marker><marker id="dfill" viewBox="0 0 28 16" refX="1" refY="8" markerWidth="22" markerHeight="13" orient="auto"><path d="M1,8 L14,1 L27,8 L14,15 z" fill="#475569" stroke="#475569"/></marker><marker id="dvac" viewBox="0 0 28 16" refX="1" refY="8" markerWidth="22" markerHeight="13" orient="auto"><path d="M1,8 L14,1 L27,8 L14,15 z" fill="#fff" stroke="#475569" stroke-width="1.5"/></marker></defs>
+<text x="60" y="38" font-size="22" font-weight="bold" fill="#334155">Proyecto 2 – Torneos internos: diagrama de clases</text>
+<line x1="223.2" y1="260.0" x2="214.4" y2="160.0" fill="none" marker-end="url(#her)" stroke="#475569" stroke-width="1.6"/>
+<line x1="509.3" y1="260.0" x2="309.8" y2="160.0" fill="none" marker-end="url(#her)" stroke="#475569" stroke-width="1.6"/>
+<line x1="872.3" y1="1330.0" x2="1025.4" y2="1075.0" fill="none" marker-end="url(#her)" stroke="#475569" stroke-width="1.6"/>
+<line x1="1322.1" y1="1330.0" x2="1251.4" y2="1075.0" fill="none" marker-end="url(#her)" stroke="#475569" stroke-width="1.6"/>
+<line x1="1180.0" y1="321.0" x2="1180.0" y2="560.0" fill="none" marker-start="url(#dfill)" marker-end="url(#open)" stroke="#475569" stroke-width="1.4"/>
+<rect x="1144.0" y="431.5" width="72.0" height="17" fill="#fff"/><text x="1180.0" y="444.5" font-size="11" fill="#334155" text-anchor="middle">torneos  *</text>
+<line x1="1460.0" y1="813.6" x2="1660.0" y2="810.9" fill="none" marker-start="url(#dfill)" marker-end="url(#open)" stroke="#475569" stroke-width="1.4"/>
+<rect x="1520.9" y="803.3" width="78.2" height="17" fill="#fff"/><text x="1560.0" y="816.3" font-size="11" fill="#334155" text-anchor="middle">inscritos *</text>
+<line x1="1460.0" y1="974.9" x2="1718.0" y2="1120.0" fill="none" marker-start="url(#dfill)" marker-end="url(#open)" stroke="#475569" stroke-width="1.4"/>
+<rect x="1543.7" y="1038.5" width="90.6" height="17" fill="#fff"/><text x="1589.0" y="1051.5" font-size="11" fill="#334155" text-anchor="middle">encuentros  *</text>
+<line x1="1439.5" y1="1075.0" x2="1787.1" y2="1420.0" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="1558.7" y="1238.5" width="109.2" height="17" fill="#fff"/><text x="1613.3" y="1251.5" font-size="11" fill="#334155" text-anchor="middle">getEstado(fecha)</text>
+<line x1="2080.0" y1="784.2" x2="2190.0" y2="771.7" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2"/>
+<rect x="2117.6" y="768.9" width="34.8" height="17" fill="#fff"/><text x="2135.0" y="781.9" font-size="11" fill="#334155" text-anchor="middle">tipo</text>
+<line x1="629.3" y1="386.0" x2="600.9" y2="700.0" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2"/>
+<rect x="576.0" y="534.0" width="78.2" height="17" fill="#fff"/><text x="615.1" y="547.0" font-size="11" fill="#334155" text-anchor="middle">vinculacion</text>
+<line x1="620.0" y1="1405.9" x2="440.0" y2="1410.6" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2"/>
+<rect x="469.2" y="1399.3" width="121.6" height="17" fill="#fff"/><text x="530.0" y="1412.3" font-size="11" fill="#334155" text-anchor="middle">bonoEntregado 0..1</text>
+<line x1="231.4" y1="416.0" x2="248.4" y2="1330.0" fill="none" marker-start="url(#dvac)" marker-end="url(#open)" stroke="#475569" stroke-width="1.4"/>
+<rect x="210.1" y="864.0" width="59.6" height="17" fill="#fff"/><text x="239.9" y="877.0" font-size="11" fill="#334155" text-anchor="middle">bonos  *</text>
+<line x1="283.3" y1="1580.0" x2="267.3" y2="1501.0" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="261.0" y="1531.5" width="28.6" height="17" fill="#fff"/><text x="275.3" y="1544.5" font-size="11" fill="#334155" text-anchor="middle">usa</text>
+<line x1="1460.0" y1="144.3" x2="1560.0" y2="127.8" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="1464.7" y="127.0" width="90.6" height="17" fill="#fff"/><text x="1510.0" y="140.0" font-size="11" fill="#334155" text-anchor="middle">revisa turnos</text>
+<line x1="1460.0" y1="238.0" x2="1560.0" y2="255.0" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="1455.4" y="237.5" width="109.2" height="17" fill="#fff"/><text x="1510.0" y="250.5" font-size="11" fill="#334155" text-anchor="middle">inscribe equipos</text>
+<line x1="900.0" y1="167.3" x2="360.0" y2="122.4" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2"/>
+<rect x="590.9" y="135.9" width="78.2" height="17" fill="#fff"/><text x="630.0" y="148.9" font-size="11" fill="#334155" text-anchor="middle">usuarios  *</text>
+<line x1="2196.8" y1="161.0" x2="1460.0" y2="636.7" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="1733.5" y="389.9" width="189.8" height="17" fill="#fff"/><text x="1828.4" y="402.9" font-size="11" fill="#334155" text-anchor="middle">tipo recreativo / competitivo</text>
+<line x1="1870.0" y1="1120.0" x2="1870.0" y2="916.0" fill="none" marker-end="url(#open)" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="1830.9" y="1009.0" width="78.2" height="17" fill="#fff"/><text x="1870.0" y="1022.0" font-size="11" fill="#334155" text-anchor="middle">se crea con</text>
+<rect x="60" y="60" width="300" height="100" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="60" y="60" width="300" height="54" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="210.0" y="74" font-size="10" fill="#475569" text-anchor="middle">«abstract»</text>
+<text x="210.0" y="92" font-size="13" font-weight="bold" font-style="italic" fill="#1e293b" text-anchor="middle">Usuario</text>
+<text x="210.0" y="106" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.usuarios</text>
+<text x="66" y="130" font-size="10.5" fill="#1e293b">− login : String</text>
+<text x="66" y="145" font-size="10.5" fill="#1e293b">− password : String</text>
+<rect x="60" y="260" width="340" height="156" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="60" y="260" width="340" height="40" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="230.0" y="278" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">Socio</text>
+<text x="230.0" y="292" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.usuarios</text>
+<text x="66" y="316" font-size="10.5" fill="#1e293b">− identificacion : String</text>
+<text x="66" y="331" font-size="10.5" fill="#1e293b">− nombre : String</text>
+<text x="66" y="346" font-size="10.5" fill="#1e293b">− bonos : ArrayList&lt;BonoDescuento&gt;</text>
+<line x1="60" y1="352" x2="400" y2="352" stroke="#cbd5e1"/>
+<text x="66" y="367" font-size="10.5" fill="#1e293b">+ agregarBono(bono)</text>
+<text x="66" y="382" font-size="10.5" fill="#1e293b">+ buscarBono(codigo) : BonoDescuento</text>
+<text x="66" y="397" font-size="10.5" fill="#1e293b">+ getBonosDisponibles() : List&lt;BonoDescuento&gt;</text>
+<rect x="470" y="260" width="330" height="126" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="470" y="260" width="330" height="40" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="635.0" y="278" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">UsuarioExterno</text>
+<text x="635.0" y="292" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.usuarios</text>
+<text x="476" y="316" font-size="10.5" fill="#1e293b">− identificacion : String</text>
+<text x="476" y="331" font-size="10.5" fill="#1e293b">− nombre : String</text>
+<text x="476" y="346" font-size="10.5" fill="#1e293b">− vinculacion : Vinculacion</text>
+<line x1="470" y1="352" x2="800" y2="352" stroke="#cbd5e1"/>
+<text x="476" y="367" font-size="10.5" fill="#1e293b">+ getVinculacion() : Vinculacion</text>
+<rect x="900" y="60" width="560" height="261" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="900" y="60" width="560" height="40" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="1180.0" y="78" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">Club</text>
+<text x="1180.0" y="92" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo</text>
+<text x="906" y="116" font-size="10.5" fill="#1e293b">− torneos : ArrayList&lt;Torneo&gt;</text>
+<text x="906" y="131" font-size="10.5" fill="#1e293b">+ RANKING_INICIAL : double = 1000</text>
+<line x1="900" y1="137" x2="1460" y2="137" stroke="#cbd5e1"/>
+<text x="906" y="152" font-size="10.5" fill="#1e293b">+ crearTorneo(torneo) : boolean</text>
+<text x="906" y="167" font-size="10.5" fill="#1e293b">+ buscarTorneo(nombre) : Torneo</text>
+<text x="906" y="182" font-size="10.5" fill="#1e293b">+ inscribirEnTorneo(nombreTorneo, usuario, pareja, fecha) : boolean</text>
+<text x="906" y="197" font-size="10.5" fill="#1e293b">+ inscribirEquipoEnTorneo(nombreTorneo, entrenador, equipo, nomina, fecha) : boolean</text>
+<text x="906" y="212" font-size="10.5" fill="#1e293b">+ empleadoTieneTurno(login, fecha) : boolean</text>
+<text x="906" y="227" font-size="10.5" fill="#1e293b">+ empleadoTieneTurnoDuranteTorneo(login, torneo) : boolean</text>
+<text x="906" y="242" font-size="10.5" fill="#1e293b">+ rankingDe(identificacion, disciplina) : double</text>
+<text x="906" y="257" font-size="10.5" fill="#1e293b">+ consultarTorneo(nombre, idParticipante, fecha, hoy) : String</text>
+<text x="906" y="272" font-size="10.5" fill="#1e293b">+ entregarBonoTorneo(nombreTorneo, fecha) : boolean</text>
+<text x="906" y="287" font-size="10.5" fill="#1e293b">+ comprarEnTiendaConBono(venta, puntos, codigoBono) : boolean</text>
+<text x="906" y="302" font-size="10.5" fill="#1e293b">+ comprarEnCafeteriaConBono(venta, puntos, codigoBono) : boolean</text>
+<rect x="60" y="1580" width="470" height="116" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="60" y="1580" width="470" height="40" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="295.0" y="1598" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">AdministracionComercial</text>
+<text x="295.0" y="1612" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.administracion</text>
+<line x1="60" y1="1625" x2="530" y2="1625" stroke="#cbd5e1"/>
+<text x="66" y="1640" font-size="10.5" fill="#1e293b">+ registrarVentaTienda(venta, puntos, bono) : boolean</text>
+<text x="66" y="1655" font-size="10.5" fill="#1e293b">+ registrarVentaCafeteria(venta, puntos, bono) : boolean</text>
+<text x="66" y="1670" font-size="10.5" fill="#1e293b">− bonoNoPermitido(bono, tasa, puntos) : boolean</text>
+<text x="66" y="1685" font-size="10.5" fill="#1e293b">− valorBono(bono, venta) : double</text>
+<rect x="2110" y="60" width="330" height="101" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="2110" y="60" width="330" height="40" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="2275.0" y="78" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">PersistenciaClub</text>
+<text x="2275.0" y="92" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.persistencia</text>
+<line x1="2110" y1="105" x2="2440" y2="105" stroke="#cbd5e1"/>
+<text x="2116" y="120" font-size="10.5" fill="#1e293b">+ cargarClub() : Club</text>
+<text x="2116" y="135" font-size="10.5" fill="#1e293b">+ guardarClub(club)</text>
+<text x="2116" y="150" font-size="10.5" fill="#1e293b">− tiposTorneo() : Map</text>
+<rect x="1560" y="60" width="300" height="86" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="1560" y="60" width="300" height="40" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="1710.0" y="78" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">Turno</text>
+<text x="1710.0" y="92" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.administracion</text>
+<text x="1566" y="116" font-size="10.5" fill="#1e293b">− identificacionEmpleado : String</text>
+<text x="1566" y="131" font-size="10.5" fill="#1e293b">− diaSemana : String</text>
+<rect x="1560" y="230" width="300" height="101" fill="#fff" stroke="#64748b" stroke-width="1.4"/>
+<rect x="1560" y="230" width="300" height="40" fill="#f1f5f9" stroke="#64748b" stroke-width="1.4"/>
+<text x="1710.0" y="248" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">Equipo</text>
+<text x="1710.0" y="262" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.equipos</text>
+<text x="1566" y="286" font-size="10.5" fill="#1e293b">− deporte : Deporte</text>
+<text x="1566" y="301" font-size="10.5" fill="#1e293b">− categoria : Categoria</text>
+<text x="1566" y="316" font-size="10.5" fill="#1e293b">− jugadores : List&lt;JugadorEquipo&gt;</text>
+<rect x="900" y="560" width="560" height="515" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="900" y="560" width="560" height="54" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="1180.0" y="574" font-size="10" fill="#475569" text-anchor="middle">«abstract»</text>
+<text x="1180.0" y="592" font-size="13" font-weight="bold" font-style="italic" fill="#1e293b" text-anchor="middle">Torneo</text>
+<text x="1180.0" y="606" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="906" y="630" font-size="10.5" fill="#1e293b">− nombre : String</text>
+<text x="906" y="645" font-size="10.5" fill="#1e293b">− deporteODisciplina : String</text>
+<text x="906" y="660" font-size="10.5" fill="#1e293b">− categoriaONivel : String</text>
+<text x="906" y="675" font-size="10.5" fill="#1e293b">− modalidad : TipoParticipante</text>
+<text x="906" y="690" font-size="10.5" fill="#1e293b">− cupos : int</text>
+<text x="906" y="705" font-size="10.5" fill="#1e293b">− fechaInicio, fechaFin : LocalDate</text>
+<text x="906" y="720" font-size="10.5" fill="#1e293b">− fechaLimitePreferencial : LocalDate</text>
+<text x="906" y="735" font-size="10.5" fill="#1e293b">− inscritos : List&lt;ParticipanteTorneo&gt;</text>
+<text x="906" y="750" font-size="10.5" fill="#1e293b">− elegiblesPreferenciales : List&lt;String&gt;</text>
+<text x="906" y="765" font-size="10.5" fill="#1e293b">− inscritosPreferenciales : List&lt;String&gt;</text>
+<text x="906" y="780" font-size="10.5" fill="#1e293b">− historial : List&lt;String&gt;</text>
+<text x="906" y="795" font-size="10.5" fill="#1e293b">− encuentros : List&lt;EncuentroTorneo&gt;</text>
+<text x="906" y="810" font-size="10.5" fill="#1e293b">− ganador : ParticipanteTorneo</text>
+<text x="906" y="825" font-size="10.5" fill="#1e293b">− resultadosCerrados : boolean</text>
+<line x1="900" y1="831" x2="1460" y2="831" stroke="#cbd5e1"/>
+<text x="906" y="846" font-size="10.5" fill="#1e293b">+ esCompetitivo() : boolean {abstract}</text>
+<text x="906" y="861" font-size="10.5" fill="#1e293b">+ calcularCobro(participante) : double {abstract}</text>
+<text x="906" y="876" font-size="10.5" fill="#1e293b">+ esValido() : boolean</text>
+<text x="906" y="891" font-size="10.5" fill="#1e293b">+ getEstado(fecha) : EstadoTorneo</text>
+<text x="906" y="906" font-size="10.5" fill="#1e293b">+ getCuposPreferenciales() : int</text>
+<text x="906" y="921" font-size="10.5" fill="#1e293b">+ getCuposDisponibles() : int</text>
+<text x="906" y="936" font-size="10.5" fill="#1e293b">+ definirElegibles(candidatos)</text>
+<text x="906" y="951" font-size="10.5" fill="#1e293b">+ inscribir(participante, fecha) : boolean</text>
+<text x="906" y="966" font-size="10.5" fill="#1e293b">+ retirar(id, fecha) : boolean</text>
+<text x="906" y="981" font-size="10.5" fill="#1e293b">+ programarEncuentro(idLocal, idVisitante, escenario, fecha) : boolean</text>
+<text x="906" y="996" font-size="10.5" fill="#1e293b">+ registrarResultado(numero, local, visitante, fecha) : boolean</text>
+<text x="906" y="1011" font-size="10.5" fill="#1e293b">+ finalizar(idGanador, fecha) : boolean</text>
+<text x="906" y="1026" font-size="10.5" fill="#1e293b">+ getHistorial() : List&lt;String&gt;</text>
+<text x="906" y="1041" font-size="10.5" fill="#1e293b">+ prepararDatos()</text>
+<text x="906" y="1056" font-size="10.5" fill="#1e293b"># registrarEvento(fecha, descripcion)</text>
+<rect x="620" y="1330" width="420" height="141" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="620" y="1330" width="420" height="40" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="830.0" y="1348" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">TorneoRecreativo</text>
+<text x="830.0" y="1362" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="626" y="1386" font-size="10.5" fill="#1e293b">− valorBono : double</text>
+<text x="626" y="1401" font-size="10.5" fill="#1e293b">− bonoEntregado : BonoDescuento</text>
+<line x1="620" y1="1407" x2="1040" y2="1407" stroke="#cbd5e1"/>
+<text x="626" y="1422" font-size="10.5" fill="#1e293b">+ esCompetitivo() : boolean</text>
+<text x="626" y="1437" font-size="10.5" fill="#1e293b">+ calcularCobro(participante) : double</text>
+<text x="626" y="1452" font-size="10.5" fill="#1e293b">+ entregarBono(fecha) : BonoDescuento</text>
+<rect x="1120" y="1330" width="460" height="201" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="1120" y="1330" width="460" height="40" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="1350.0" y="1348" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">TorneoCompetitivo</text>
+<text x="1350.0" y="1362" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="1126" y="1386" font-size="10.5" fill="#1e293b">+ PORCENTAJE_PREMIO : double = 0.70</text>
+<text x="1126" y="1401" font-size="10.5" fill="#1e293b">− tarifa : double</text>
+<text x="1126" y="1416" font-size="10.5" fill="#1e293b">− responsablePago : String</text>
+<text x="1126" y="1431" font-size="10.5" fill="#1e293b">− premioPagado : boolean</text>
+<line x1="1120" y1="1437" x2="1580" y2="1437" stroke="#cbd5e1"/>
+<text x="1126" y="1452" font-size="10.5" fill="#1e293b">+ esValido() : boolean</text>
+<text x="1126" y="1467" font-size="10.5" fill="#1e293b">+ calcularCobro(participante) : double</text>
+<text x="1126" y="1482" font-size="10.5" fill="#1e293b">+ getTotalRecaudado() : double</text>
+<text x="1126" y="1497" font-size="10.5" fill="#1e293b">+ calcularPremio() : double</text>
+<text x="1126" y="1512" font-size="10.5" fill="#1e293b">+ registrarPagoPremio(idResponsable, fecha) : boolean</text>
+<rect x="60" y="1330" width="380" height="171" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="60" y="1330" width="380" height="40" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="250.0" y="1348" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">BonoDescuento</text>
+<text x="250.0" y="1362" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="66" y="1386" font-size="10.5" fill="#1e293b">− codigo : String</text>
+<text x="66" y="1401" font-size="10.5" fill="#1e293b">− nombreTorneo : String</text>
+<text x="66" y="1416" font-size="10.5" fill="#1e293b">− identificacionGanador : String</text>
+<text x="66" y="1431" font-size="10.5" fill="#1e293b">− valor : double</text>
+<text x="66" y="1446" font-size="10.5" fill="#1e293b">− usado : boolean</text>
+<line x1="60" y1="1452" x2="440" y2="1452" stroke="#cbd5e1"/>
+<text x="66" y="1467" font-size="10.5" fill="#1e293b">+ estaDisponible() : boolean</text>
+<text x="66" y="1482" font-size="10.5" fill="#1e293b">+ consumir() : boolean</text>
+<rect x="1660" y="700" width="420" height="216" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="1660" y="700" width="420" height="40" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="1870.0" y="718" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">ParticipanteTorneo</text>
+<text x="1870.0" y="732" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="1666" y="756" font-size="10.5" fill="#1e293b">− identificacion : String</text>
+<text x="1666" y="771" font-size="10.5" fill="#1e293b">− nombre : String</text>
+<text x="1666" y="786" font-size="10.5" fill="#1e293b">− tipo : TipoParticipante</text>
+<text x="1666" y="801" font-size="10.5" fill="#1e293b">− vinculacion : Vinculacion</text>
+<text x="1666" y="816" font-size="10.5" fill="#1e293b">− integrantes : List&lt;String&gt;</text>
+<text x="1666" y="831" font-size="10.5" fill="#1e293b">− puntajeDesempeno : double</text>
+<text x="1666" y="846" font-size="10.5" fill="#1e293b">− montoPagado : double</text>
+<line x1="1660" y1="852" x2="2080" y2="852" stroke="#cbd5e1"/>
+<text x="1666" y="867" font-size="10.5" fill="#1e293b">+ estaCompleto() : boolean</text>
+<text x="1666" y="882" font-size="10.5" fill="#1e293b">+ esEmpleado() : boolean</text>
+<text x="1666" y="897" font-size="10.5" fill="#1e293b">+ registrarPago(monto)</text>
+<rect x="1660" y="1120" width="420" height="171" fill="#fff" stroke="#0e7490" stroke-width="1.4"/>
+<rect x="1660" y="1120" width="420" height="40" fill="#cffafe" stroke="#0e7490" stroke-width="1.4"/>
+<text x="1870.0" y="1138" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">EncuentroTorneo</text>
+<text x="1870.0" y="1152" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="1666" y="1176" font-size="10.5" fill="#1e293b">− idLocal, idVisitante : String</text>
+<text x="1666" y="1191" font-size="10.5" fill="#1e293b">− escenario : String</text>
+<text x="1666" y="1206" font-size="10.5" fill="#1e293b">− fecha : LocalDate</text>
+<text x="1666" y="1221" font-size="10.5" fill="#1e293b">− marcadorLocal, marcadorVisitante : int</text>
+<text x="1666" y="1236" font-size="10.5" fill="#1e293b">− jugado : boolean</text>
+<line x1="1660" y1="1242" x2="2080" y2="1242" stroke="#cbd5e1"/>
+<text x="1666" y="1257" font-size="10.5" fill="#1e293b">+ registrarResultado(local, visitante) : boolean</text>
+<text x="1666" y="1272" font-size="10.5" fill="#1e293b">+ involucra(id) : boolean</text>
+<rect x="1720" y="1420" width="250" height="115" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<rect x="1720" y="1420" width="250" height="54" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+<text x="1845.0" y="1434" font-size="10" fill="#475569" text-anchor="middle">«enumeration»</text>
+<text x="1845.0" y="1452" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">EstadoTorneo</text>
+<text x="1845.0" y="1466" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="1726" y="1490" font-size="10.5" fill="#1e293b">ABIERTO</text>
+<text x="1726" y="1505" font-size="10.5" fill="#1e293b">EN_CURSO</text>
+<text x="1726" y="1520" font-size="10.5" fill="#1e293b">FINALIZADO</text>
+<rect x="2190" y="700" width="250" height="115" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<rect x="2190" y="700" width="250" height="54" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+<text x="2315.0" y="714" font-size="10" fill="#475569" text-anchor="middle">«enumeration»</text>
+<text x="2315.0" y="732" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">TipoParticipante</text>
+<text x="2315.0" y="746" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="2196" y="770" font-size="10.5" fill="#1e293b">EQUIPO</text>
+<text x="2196" y="785" font-size="10.5" fill="#1e293b">JUGADOR</text>
+<text x="2196" y="800" font-size="10.5" fill="#1e293b">PAREJA</text>
+<rect x="470" y="700" width="250" height="130" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<rect x="470" y="700" width="250" height="54" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+<text x="595.0" y="714" font-size="10" fill="#475569" text-anchor="middle">«enumeration»</text>
+<text x="595.0" y="732" font-size="13" font-weight="bold"  fill="#1e293b" text-anchor="middle">Vinculacion</text>
+<text x="595.0" y="746" font-size="9" fill="#475569" text-anchor="middle">clubdeportivo.modelo.torneos</text>
+<text x="476" y="770" font-size="10.5" fill="#1e293b">SOCIO</text>
+<text x="476" y="785" font-size="10.5" fill="#1e293b">ESTUDIANTE</text>
+<text x="476" y="800" font-size="10.5" fill="#1e293b">EXTERNO</text>
+<text x="476" y="815" font-size="10.5" fill="#1e293b">EMPLEADO</text>
+<rect x="60" y="1810" width="22" height="14" fill="#cffafe" stroke="#0e7490"/><text x="90" y="1822" font-size="12" fill="#334155">Clase nueva del Proyecto 2 (torneos)</text>
+<rect x="390" y="1810" width="22" height="14" fill="#f1f5f9" stroke="#64748b"/><text x="420" y="1822" font-size="12" fill="#334155">Clase existente: solo se muestran los miembros agregados para torneos</text>
+<rect x="940" y="1810" width="22" height="14" fill="#fef9c3" stroke="#a16207"/><text x="970" y="1822" font-size="12" fill="#334155">Enumeración</text>
+</svg>

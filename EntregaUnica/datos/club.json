@@ -10,9 +10,179 @@
       "tipo": "socio"
     },
     {
+      "identificacion": "S-002",
+      "nombre": "Valentina Rojas",
+      "edad": 21,
+      "login": "vrojas",
+      "password": "vrojas123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-003",
+      "nombre": "Andres Gomez",
+      "edad": 23,
+      "login": "agomez",
+      "password": "agomez123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-004",
+      "nombre": "Camila Herrera",
+      "edad": 19,
+      "login": "cherrera",
+      "password": "cherrera123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-005",
+      "nombre": "Santiago Pardo",
+      "edad": 22,
+      "login": "spardo",
+      "password": "spardo123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-006",
+      "nombre": "Mariana Lopez",
+      "edad": 20,
+      "login": "mlopez",
+      "password": "mlopez123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-007",
+      "nombre": "Juan Pablo Diaz",
+      "edad": 24,
+      "login": "jdiaz",
+      "password": "jdiaz123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-008",
+      "nombre": "Daniela Castro",
+      "edad": 18,
+      "login": "dcastro",
+      "password": "dcastro123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-009",
+      "nombre": "Sebastian Ruiz",
+      "edad": 25,
+      "login": "sruiz",
+      "password": "sruiz123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-010",
+      "nombre": "Laura Moreno",
+      "edad": 22,
+      "login": "lmoreno",
+      "password": "lmoreno123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-011",
+      "nombre": "Nicolas Vargas",
+      "edad": 19,
+      "login": "nvargas",
+      "password": "nvargas123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-012",
+      "nombre": "Isabella Torres",
+      "edad": 21,
+      "login": "itorres",
+      "password": "itorres123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-013",
+      "nombre": "Mateo Rincon",
+      "edad": 23,
+      "login": "mrincon",
+      "password": "mrincon123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-014",
+      "nombre": "Sara Mejia",
+      "edad": 20,
+      "login": "smejia",
+      "password": "smejia123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-015",
+      "nombre": "Felipe Ospina",
+      "edad": 26,
+      "login": "fospina",
+      "password": "fospina123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-016",
+      "nombre": "Emilio Suarez",
+      "edad": 16,
+      "login": "esuarez",
+      "password": "esuarez123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-017",
+      "nombre": "Gabriela Nino",
+      "edad": 17,
+      "login": "gnino",
+      "password": "gnino123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-018",
+      "nombre": "Samuel Pineda",
+      "edad": 14,
+      "login": "spineda",
+      "password": "spineda123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-019",
+      "nombre": "Lucia Cardenas",
+      "edad": 15,
+      "login": "lcardenas",
+      "password": "lcardenas123",
+      "tipo": "socio"
+    },
+    {
+      "identificacion": "S-020",
+      "nombre": "Martin Ortiz",
+      "edad": 12,
+      "login": "mortiz",
+      "password": "mortiz123",
+      "tipo": "socio"
+    },
+    {
       "codigoDescuento": "ENT-001",
       "login": "entrenador",
       "password": "ent123",
+      "tipo": "entrenador"
+    },
+    {
+      "codigoDescuento": "ENT-002",
+      "login": "cmendoza",
+      "password": "cmendoza123",
+      "tipo": "entrenador"
+    },
+    {
+      "codigoDescuento": "ENT-003",
+      "login": "lrestrepo",
+      "password": "lrestrepo123",
+      "tipo": "entrenador"
+    },
+    {
+      "codigoDescuento": "ENT-004",
+      "login": "dsalazar",
+      "password": "dsalazar123",
       "tipo": "entrenador"
     },
     {
@@ -22,33 +192,2368 @@
       "tipo": "fisioterapeuta"
     },
     {
+      "codigoDescuento": "FIS-002",
+      "login": "pcorrea",
+      "password": "pcorrea123",
+      "tipo": "fisioterapeuta"
+    },
+    {
       "login": "admin",
       "password": "admin123",
       "tipo": "administrador"
     }
   ],
-  "equipos": [],
-  "partidos": [],
-  "competencias": [],
-  "instalaciones": [],
-  "disciplinas": [],
-  "inscripcionesDisciplina": [],
-  "reservas": [],
-  "partidosPractica": [],
-  "sesionesEntrenamiento": [],
+  "equipos": [
+    {
+      "nombre": "Seneca Futbol Mayores A",
+      "cupoMaximo": 18,
+      "deporte": {
+        "nombre": "Futbol",
+        "minimoJugadoresHabilitados": 7
+      },
+      "categoria": {
+        "nombre": "Mayores",
+        "edadMinima": 18,
+        "edadMaxima": 99
+      },
+      "jugadores": [
+        {
+          "jugador": {
+            "identificacion": "S-001",
+            "nombre": "Socio de prueba",
+            "edad": 20,
+            "login": "socio",
+            "password": "socio123"
+          },
+          "posicion": "Portero",
+          "numeroCamiseta": 1,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-002",
+            "nombre": "Valentina Rojas",
+            "edad": 21,
+            "login": "vrojas",
+            "password": "vrojas123"
+          },
+          "posicion": "Defensa",
+          "numeroCamiseta": 2,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-003",
+            "nombre": "Andres Gomez",
+            "edad": 23,
+            "login": "agomez",
+            "password": "agomez123"
+          },
+          "posicion": "Defensa",
+          "numeroCamiseta": 3,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-004",
+            "nombre": "Camila Herrera",
+            "edad": 19,
+            "login": "cherrera",
+            "password": "cherrera123"
+          },
+          "posicion": "Defensa",
+          "numeroCamiseta": 4,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-005",
+            "nombre": "Santiago Pardo",
+            "edad": 22,
+            "login": "spardo",
+            "password": "spardo123"
+          },
+          "posicion": "Mediocampista",
+          "numeroCamiseta": 8,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-006",
+            "nombre": "Mariana Lopez",
+            "edad": 20,
+            "login": "mlopez",
+            "password": "mlopez123"
+          },
+          "posicion": "Mediocampista",
+          "numeroCamiseta": 10,
+          "amarillasAcumuladas": 1,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-007",
+            "nombre": "Juan Pablo Diaz",
+            "edad": 24,
+            "login": "jdiaz",
+            "password": "jdiaz123"
+          },
+          "posicion": "Delantero",
+          "numeroCamiseta": 9,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-008",
+            "nombre": "Daniela Castro",
+            "edad": 18,
+            "login": "dcastro",
+            "password": "dcastro123"
+          },
+          "posicion": "Delantero",
+          "numeroCamiseta": 11,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Seneca Futbol Mayores B",
+      "cupoMaximo": 18,
+      "deporte": {
+        "nombre": "Futbol",
+        "minimoJugadoresHabilitados": 7
+      },
+      "categoria": {
+        "nombre": "Mayores",
+        "edadMinima": 18,
+        "edadMaxima": 99
+      },
+      "jugadores": [
+        {
+          "jugador": {
+            "identificacion": "S-009",
+            "nombre": "Sebastian Ruiz",
+            "edad": 25,
+            "login": "sruiz",
+            "password": "sruiz123"
+          },
+          "posicion": "Portero",
+          "numeroCamiseta": 1,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-010",
+            "nombre": "Laura Moreno",
+            "edad": 22,
+            "login": "lmoreno",
+            "password": "lmoreno123"
+          },
+          "posicion": "Defensa",
+          "numeroCamiseta": 2,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-011",
+            "nombre": "Nicolas Vargas",
+            "edad": 19,
+            "login": "nvargas",
+            "password": "nvargas123"
+          },
+          "posicion": "Defensa",
+          "numeroCamiseta": 3,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-012",
+            "nombre": "Isabella Torres",
+            "edad": 21,
+            "login": "itorres",
+            "password": "itorres123"
+          },
+          "posicion": "Mediocampista",
+          "numeroCamiseta": 6,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-013",
+            "nombre": "Mateo Rincon",
+            "edad": 23,
+            "login": "mrincon",
+            "password": "mrincon123"
+          },
+          "posicion": "Mediocampista",
+          "numeroCamiseta": 8,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-014",
+            "nombre": "Sara Mejia",
+            "edad": 20,
+            "login": "smejia",
+            "password": "smejia123"
+          },
+          "posicion": "Delantero",
+          "numeroCamiseta": 9,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-015",
+            "nombre": "Felipe Ospina",
+            "edad": 26,
+            "login": "fospina",
+            "password": "fospina123"
+          },
+          "posicion": "Delantero",
+          "numeroCamiseta": 7,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Seneca Baloncesto Mayores",
+      "cupoMaximo": 12,
+      "deporte": {
+        "nombre": "Baloncesto",
+        "minimoJugadoresHabilitados": 5
+      },
+      "categoria": {
+        "nombre": "Mayores",
+        "edadMinima": 18,
+        "edadMaxima": 99
+      },
+      "jugadores": [
+        {
+          "jugador": {
+            "identificacion": "S-002",
+            "nombre": "Valentina Rojas",
+            "edad": 21,
+            "login": "vrojas",
+            "password": "vrojas123"
+          },
+          "posicion": "Base",
+          "numeroCamiseta": 4,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-004",
+            "nombre": "Camila Herrera",
+            "edad": 19,
+            "login": "cherrera",
+            "password": "cherrera123"
+          },
+          "posicion": "Escolta",
+          "numeroCamiseta": 5,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-006",
+            "nombre": "Mariana Lopez",
+            "edad": 20,
+            "login": "mlopez",
+            "password": "mlopez123"
+          },
+          "posicion": "Alero",
+          "numeroCamiseta": 6,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-010",
+            "nombre": "Laura Moreno",
+            "edad": 22,
+            "login": "lmoreno",
+            "password": "lmoreno123"
+          },
+          "posicion": "Ala-pivot",
+          "numeroCamiseta": 7,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-012",
+            "nombre": "Isabella Torres",
+            "edad": 21,
+            "login": "itorres",
+            "password": "itorres123"
+          },
+          "posicion": "Pivot",
+          "numeroCamiseta": 8,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-014",
+            "nombre": "Sara Mejia",
+            "edad": 20,
+            "login": "smejia",
+            "password": "smejia123"
+          },
+          "posicion": "Alero",
+          "numeroCamiseta": 9,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Seneca Voleibol Mayores",
+      "cupoMaximo": 12,
+      "deporte": {
+        "nombre": "Voleibol",
+        "minimoJugadoresHabilitados": 6
+      },
+      "categoria": {
+        "nombre": "Mayores",
+        "edadMinima": 18,
+        "edadMaxima": 99
+      },
+      "jugadores": [
+        {
+          "jugador": {
+            "identificacion": "S-003",
+            "nombre": "Andres Gomez",
+            "edad": 23,
+            "login": "agomez",
+            "password": "agomez123"
+          },
+          "posicion": "Armador",
+          "numeroCamiseta": 1,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-005",
+            "nombre": "Santiago Pardo",
+            "edad": 22,
+            "login": "spardo",
+            "password": "spardo123"
+          },
+          "posicion": "Opuesto",
+          "numeroCamiseta": 2,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-007",
+            "nombre": "Juan Pablo Diaz",
+            "edad": 24,
+            "login": "jdiaz",
+            "password": "jdiaz123"
+          },
+          "posicion": "Central",
+          "numeroCamiseta": 3,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-009",
+            "nombre": "Sebastian Ruiz",
+            "edad": 25,
+            "login": "sruiz",
+            "password": "sruiz123"
+          },
+          "posicion": "Central",
+          "numeroCamiseta": 4,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-011",
+            "nombre": "Nicolas Vargas",
+            "edad": 19,
+            "login": "nvargas",
+            "password": "nvargas123"
+          },
+          "posicion": "Punta",
+          "numeroCamiseta": 5,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-013",
+            "nombre": "Mateo Rincon",
+            "edad": 23,
+            "login": "mrincon",
+            "password": "mrincon123"
+          },
+          "posicion": "Libero",
+          "numeroCamiseta": 6,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Seneca Voleibol Sub-17",
+      "cupoMaximo": 12,
+      "deporte": {
+        "nombre": "Voleibol",
+        "minimoJugadoresHabilitados": 6
+      },
+      "categoria": {
+        "nombre": "Sub-17",
+        "edadMinima": 16,
+        "edadMaxima": 17
+      },
+      "jugadores": [
+        {
+          "jugador": {
+            "identificacion": "S-016",
+            "nombre": "Emilio Suarez",
+            "edad": 16,
+            "login": "esuarez",
+            "password": "esuarez123"
+          },
+          "posicion": "Punta",
+          "numeroCamiseta": 10,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-017",
+            "nombre": "Gabriela Nino",
+            "edad": 17,
+            "login": "gnino",
+            "password": "gnino123"
+          },
+          "posicion": "Armador",
+          "numeroCamiseta": 11,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Seneca Futbol Sub-15",
+      "cupoMaximo": 2,
+      "deporte": {
+        "nombre": "Futbol",
+        "minimoJugadoresHabilitados": 7
+      },
+      "categoria": {
+        "nombre": "Sub-15",
+        "edadMinima": 14,
+        "edadMaxima": 15
+      },
+      "jugadores": [
+        {
+          "jugador": {
+            "identificacion": "S-018",
+            "nombre": "Samuel Pineda",
+            "edad": 14,
+            "login": "spineda",
+            "password": "spineda123"
+          },
+          "posicion": "Delantero",
+          "numeroCamiseta": 9,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        },
+        {
+          "jugador": {
+            "identificacion": "S-019",
+            "nombre": "Lucia Cardenas",
+            "edad": 15,
+            "login": "lcardenas",
+            "password": "lcardenas123"
+          },
+          "posicion": "Mediocampista",
+          "numeroCamiseta": 10,
+          "amarillasAcumuladas": 0,
+          "suspendidoProximoPartido": false
+        }
+      ]
+    }
+  ],
+  "partidos": [
+    {
+      "fecha": "2026-10-25",
+      "marcador": "2-1",
+      "equipoLocal": {
+        "nombre": "Seneca Futbol Mayores A",
+        "cupoMaximo": 18,
+        "deporte": {
+          "nombre": "Futbol",
+          "minimoJugadoresHabilitados": 7
+        },
+        "categoria": {
+          "nombre": "Mayores",
+          "edadMinima": 18,
+          "edadMaxima": 99
+        },
+        "jugadores": [
+          {
+            "jugador": {
+              "identificacion": "S-001",
+              "nombre": "Socio de prueba",
+              "edad": 20,
+              "login": "socio",
+              "password": "socio123"
+            },
+            "posicion": "Portero",
+            "numeroCamiseta": 1,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-002",
+              "nombre": "Valentina Rojas",
+              "edad": 21,
+              "login": "vrojas",
+              "password": "vrojas123"
+            },
+            "posicion": "Defensa",
+            "numeroCamiseta": 2,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-003",
+              "nombre": "Andres Gomez",
+              "edad": 23,
+              "login": "agomez",
+              "password": "agomez123"
+            },
+            "posicion": "Defensa",
+            "numeroCamiseta": 3,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-004",
+              "nombre": "Camila Herrera",
+              "edad": 19,
+              "login": "cherrera",
+              "password": "cherrera123"
+            },
+            "posicion": "Defensa",
+            "numeroCamiseta": 4,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-005",
+              "nombre": "Santiago Pardo",
+              "edad": 22,
+              "login": "spardo",
+              "password": "spardo123"
+            },
+            "posicion": "Mediocampista",
+            "numeroCamiseta": 8,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-006",
+              "nombre": "Mariana Lopez",
+              "edad": 20,
+              "login": "mlopez",
+              "password": "mlopez123"
+            },
+            "posicion": "Mediocampista",
+            "numeroCamiseta": 10,
+            "amarillasAcumuladas": 1,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-007",
+              "nombre": "Juan Pablo Diaz",
+              "edad": 24,
+              "login": "jdiaz",
+              "password": "jdiaz123"
+            },
+            "posicion": "Delantero",
+            "numeroCamiseta": 9,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-008",
+              "nombre": "Daniela Castro",
+              "edad": 18,
+              "login": "dcastro",
+              "password": "dcastro123"
+            },
+            "posicion": "Delantero",
+            "numeroCamiseta": 11,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          }
+        ]
+      },
+      "equipoVisitante": {
+        "nombre": "Seneca Futbol Mayores B",
+        "cupoMaximo": 18,
+        "deporte": {
+          "nombre": "Futbol",
+          "minimoJugadoresHabilitados": 7
+        },
+        "categoria": {
+          "nombre": "Mayores",
+          "edadMinima": 18,
+          "edadMaxima": 99
+        },
+        "jugadores": [
+          {
+            "jugador": {
+              "identificacion": "S-009",
+              "nombre": "Sebastian Ruiz",
+              "edad": 25,
+              "login": "sruiz",
+              "password": "sruiz123"
+            },
+            "posicion": "Portero",
+            "numeroCamiseta": 1,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-010",
+              "nombre": "Laura Moreno",
+              "edad": 22,
+              "login": "lmoreno",
+              "password": "lmoreno123"
+            },
+            "posicion": "Defensa",
+            "numeroCamiseta": 2,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-011",
+              "nombre": "Nicolas Vargas",
+              "edad": 19,
+              "login": "nvargas",
+              "password": "nvargas123"
+            },
+            "posicion": "Defensa",
+            "numeroCamiseta": 3,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-012",
+              "nombre": "Isabella Torres",
+              "edad": 21,
+              "login": "itorres",
+              "password": "itorres123"
+            },
+            "posicion": "Mediocampista",
+            "numeroCamiseta": 6,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-013",
+              "nombre": "Mateo Rincon",
+              "edad": 23,
+              "login": "mrincon",
+              "password": "mrincon123"
+            },
+            "posicion": "Mediocampista",
+            "numeroCamiseta": 8,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-014",
+              "nombre": "Sara Mejia",
+              "edad": 20,
+              "login": "smejia",
+              "password": "smejia123"
+            },
+            "posicion": "Delantero",
+            "numeroCamiseta": 9,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          {
+            "jugador": {
+              "identificacion": "S-015",
+              "nombre": "Felipe Ospina",
+              "edad": 26,
+              "login": "fospina",
+              "password": "fospina123"
+            },
+            "posicion": "Delantero",
+            "numeroCamiseta": 7,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          }
+        ]
+      },
+      "estadisticas": [
+        {
+          "goles": 2,
+          "asistencias": 0,
+          "tarjetasAmarillas": 0,
+          "tarjetasRojas": 0,
+          "jugador": {
+            "jugador": {
+              "identificacion": "S-007",
+              "nombre": "Juan Pablo Diaz",
+              "edad": 24,
+              "login": "jdiaz",
+              "password": "jdiaz123"
+            },
+            "posicion": "Delantero",
+            "numeroCamiseta": 9,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          "tipo": "futbol"
+        },
+        {
+          "goles": 0,
+          "asistencias": 2,
+          "tarjetasAmarillas": 1,
+          "tarjetasRojas": 0,
+          "jugador": {
+            "jugador": {
+              "identificacion": "S-006",
+              "nombre": "Mariana Lopez",
+              "edad": 20,
+              "login": "mlopez",
+              "password": "mlopez123"
+            },
+            "posicion": "Mediocampista",
+            "numeroCamiseta": 10,
+            "amarillasAcumuladas": 1,
+            "suspendidoProximoPartido": false
+          },
+          "tipo": "futbol"
+        },
+        {
+          "goles": 1,
+          "asistencias": 0,
+          "tarjetasAmarillas": 0,
+          "tarjetasRojas": 0,
+          "jugador": {
+            "jugador": {
+              "identificacion": "S-014",
+              "nombre": "Sara Mejia",
+              "edad": 20,
+              "login": "smejia",
+              "password": "smejia123"
+            },
+            "posicion": "Delantero",
+            "numeroCamiseta": 9,
+            "amarillasAcumuladas": 0,
+            "suspendidoProximoPartido": false
+          },
+          "tipo": "futbol"
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "tabla": {
+        "filas": [
+          {
+            "participante": {
+              "nombre": "Seneca Futbol Mayores A",
+              "institucion": "Club Deportivo Seneca",
+              "equipoClub": {
+                "nombre": "Seneca Futbol Mayores A",
+                "cupoMaximo": 18,
+                "deporte": {
+                  "nombre": "Futbol",
+                  "minimoJugadoresHabilitados": 7
+                },
+                "categoria": {
+                  "nombre": "Mayores",
+                  "edadMinima": 18,
+                  "edadMaxima": 99
+                },
+                "jugadores": [
+                  {
+                    "jugador": {
+                      "identificacion": "S-001",
+                      "nombre": "Socio de prueba",
+                      "edad": 20,
+                      "login": "socio",
+                      "password": "socio123"
+                    },
+                    "posicion": "Portero",
+                    "numeroCamiseta": 1,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-002",
+                      "nombre": "Valentina Rojas",
+                      "edad": 21,
+                      "login": "vrojas",
+                      "password": "vrojas123"
+                    },
+                    "posicion": "Defensa",
+                    "numeroCamiseta": 2,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-003",
+                      "nombre": "Andres Gomez",
+                      "edad": 23,
+                      "login": "agomez",
+                      "password": "agomez123"
+                    },
+                    "posicion": "Defensa",
+                    "numeroCamiseta": 3,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-004",
+                      "nombre": "Camila Herrera",
+                      "edad": 19,
+                      "login": "cherrera",
+                      "password": "cherrera123"
+                    },
+                    "posicion": "Defensa",
+                    "numeroCamiseta": 4,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-005",
+                      "nombre": "Santiago Pardo",
+                      "edad": 22,
+                      "login": "spardo",
+                      "password": "spardo123"
+                    },
+                    "posicion": "Mediocampista",
+                    "numeroCamiseta": 8,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-006",
+                      "nombre": "Mariana Lopez",
+                      "edad": 20,
+                      "login": "mlopez",
+                      "password": "mlopez123"
+                    },
+                    "posicion": "Mediocampista",
+                    "numeroCamiseta": 10,
+                    "amarillasAcumuladas": 1,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-007",
+                      "nombre": "Juan Pablo Diaz",
+                      "edad": 24,
+                      "login": "jdiaz",
+                      "password": "jdiaz123"
+                    },
+                    "posicion": "Delantero",
+                    "numeroCamiseta": 9,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  },
+                  {
+                    "jugador": {
+                      "identificacion": "S-008",
+                      "nombre": "Daniela Castro",
+                      "edad": 18,
+                      "login": "dcastro",
+                      "password": "dcastro123"
+                    },
+                    "posicion": "Delantero",
+                    "numeroCamiseta": 11,
+                    "amarillasAcumuladas": 0,
+                    "suspendidoProximoPartido": false
+                  }
+                ]
+              }
+            },
+            "partidosJugados": 1,
+            "ganados": 1,
+            "empatados": 0,
+            "perdidos": 0,
+            "puntos": 3,
+            "diferenciaMarcador": 2
+          },
+          {
+            "participante": {
+              "nombre": "Nacional FC",
+              "institucion": "Universidad Nacional de Colombia"
+            },
+            "partidosJugados": 1,
+            "ganados": 0,
+            "empatados": 0,
+            "perdidos": 1,
+            "puntos": 0,
+            "diferenciaMarcador": -2
+          },
+          {
+            "participante": {
+              "nombre": "Javeriana FC",
+              "institucion": "Pontificia Universidad Javeriana"
+            },
+            "partidosJugados": 0,
+            "ganados": 0,
+            "empatados": 0,
+            "perdidos": 0,
+            "puntos": 0,
+            "diferenciaMarcador": 0
+          },
+          {
+            "participante": {
+              "nombre": "Rosario FC",
+              "institucion": "Universidad del Rosario"
+            },
+            "partidosJugados": 0,
+            "ganados": 0,
+            "empatados": 0,
+            "perdidos": 0,
+            "puntos": 0,
+            "diferenciaMarcador": 0
+          }
+        ]
+      },
+      "nombre": "Torneo de los Cerros",
+      "entidadOrganizadora": "Universidades de Bogota",
+      "temporada": 2026,
+      "nominaMinima": 7,
+      "deporte": {
+        "nombre": "Futbol",
+        "minimoJugadoresHabilitados": 7
+      },
+      "categoriaHabilitada": {
+        "nombre": "Mayores",
+        "edadMinima": 18,
+        "edadMaxima": 99
+      },
+      "participantes": [
+        {
+          "nombre": "Seneca Futbol Mayores A",
+          "institucion": "Club Deportivo Seneca",
+          "equipoClub": {
+            "nombre": "Seneca Futbol Mayores A",
+            "cupoMaximo": 18,
+            "deporte": {
+              "nombre": "Futbol",
+              "minimoJugadoresHabilitados": 7
+            },
+            "categoria": {
+              "nombre": "Mayores",
+              "edadMinima": 18,
+              "edadMaxima": 99
+            },
+            "jugadores": [
+              {
+                "jugador": {
+                  "identificacion": "S-001",
+                  "nombre": "Socio de prueba",
+                  "edad": 20,
+                  "login": "socio",
+                  "password": "socio123"
+                },
+                "posicion": "Portero",
+                "numeroCamiseta": 1,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-002",
+                  "nombre": "Valentina Rojas",
+                  "edad": 21,
+                  "login": "vrojas",
+                  "password": "vrojas123"
+                },
+                "posicion": "Defensa",
+                "numeroCamiseta": 2,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-003",
+                  "nombre": "Andres Gomez",
+                  "edad": 23,
+                  "login": "agomez",
+                  "password": "agomez123"
+                },
+                "posicion": "Defensa",
+                "numeroCamiseta": 3,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-004",
+                  "nombre": "Camila Herrera",
+                  "edad": 19,
+                  "login": "cherrera",
+                  "password": "cherrera123"
+                },
+                "posicion": "Defensa",
+                "numeroCamiseta": 4,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-005",
+                  "nombre": "Santiago Pardo",
+                  "edad": 22,
+                  "login": "spardo",
+                  "password": "spardo123"
+                },
+                "posicion": "Mediocampista",
+                "numeroCamiseta": 8,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-006",
+                  "nombre": "Mariana Lopez",
+                  "edad": 20,
+                  "login": "mlopez",
+                  "password": "mlopez123"
+                },
+                "posicion": "Mediocampista",
+                "numeroCamiseta": 10,
+                "amarillasAcumuladas": 1,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-007",
+                  "nombre": "Juan Pablo Diaz",
+                  "edad": 24,
+                  "login": "jdiaz",
+                  "password": "jdiaz123"
+                },
+                "posicion": "Delantero",
+                "numeroCamiseta": 9,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              },
+              {
+                "jugador": {
+                  "identificacion": "S-008",
+                  "nombre": "Daniela Castro",
+                  "edad": 18,
+                  "login": "dcastro",
+                  "password": "dcastro123"
+                },
+                "posicion": "Delantero",
+                "numeroCamiseta": 11,
+                "amarillasAcumuladas": 0,
+                "suspendidoProximoPartido": false
+              }
+            ]
+          }
+        },
+        {
+          "nombre": "Nacional FC",
+          "institucion": "Universidad Nacional de Colombia"
+        },
+        {
+          "nombre": "Javeriana FC",
+          "institucion": "Pontificia Universidad Javeriana"
+        },
+        {
+          "nombre": "Rosario FC",
+          "institucion": "Universidad del Rosario"
+        }
+      ],
+      "partidos": [
+        {
+          "fecha": "2026-10-18",
+          "escenario": "Cancha principal del club",
+          "local": {
+            "nombre": "Seneca Futbol Mayores A",
+            "institucion": "Club Deportivo Seneca",
+            "equipoClub": {
+              "nombre": "Seneca Futbol Mayores A",
+              "cupoMaximo": 18,
+              "deporte": {
+                "nombre": "Futbol",
+                "minimoJugadoresHabilitados": 7
+              },
+              "categoria": {
+                "nombre": "Mayores",
+                "edadMinima": 18,
+                "edadMaxima": 99
+              },
+              "jugadores": [
+                {
+                  "jugador": {
+                    "identificacion": "S-001",
+                    "nombre": "Socio de prueba",
+                    "edad": 20,
+                    "login": "socio",
+                    "password": "socio123"
+                  },
+                  "posicion": "Portero",
+                  "numeroCamiseta": 1,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-002",
+                    "nombre": "Valentina Rojas",
+                    "edad": 21,
+                    "login": "vrojas",
+                    "password": "vrojas123"
+                  },
+                  "posicion": "Defensa",
+                  "numeroCamiseta": 2,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-003",
+                    "nombre": "Andres Gomez",
+                    "edad": 23,
+                    "login": "agomez",
+                    "password": "agomez123"
+                  },
+                  "posicion": "Defensa",
+                  "numeroCamiseta": 3,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-004",
+                    "nombre": "Camila Herrera",
+                    "edad": 19,
+                    "login": "cherrera",
+                    "password": "cherrera123"
+                  },
+                  "posicion": "Defensa",
+                  "numeroCamiseta": 4,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-005",
+                    "nombre": "Santiago Pardo",
+                    "edad": 22,
+                    "login": "spardo",
+                    "password": "spardo123"
+                  },
+                  "posicion": "Mediocampista",
+                  "numeroCamiseta": 8,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-006",
+                    "nombre": "Mariana Lopez",
+                    "edad": 20,
+                    "login": "mlopez",
+                    "password": "mlopez123"
+                  },
+                  "posicion": "Mediocampista",
+                  "numeroCamiseta": 10,
+                  "amarillasAcumuladas": 1,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-007",
+                    "nombre": "Juan Pablo Diaz",
+                    "edad": 24,
+                    "login": "jdiaz",
+                    "password": "jdiaz123"
+                  },
+                  "posicion": "Delantero",
+                  "numeroCamiseta": 9,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-008",
+                    "nombre": "Daniela Castro",
+                    "edad": 18,
+                    "login": "dcastro",
+                    "password": "dcastro123"
+                  },
+                  "posicion": "Delantero",
+                  "numeroCamiseta": 11,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                }
+              ]
+            }
+          },
+          "visitante": {
+            "nombre": "Nacional FC",
+            "institucion": "Universidad Nacional de Colombia"
+          },
+          "marcadorLocal": 3,
+          "marcadorVisitante": 1,
+          "jugado": true
+        },
+        {
+          "fecha": "2026-11-22",
+          "escenario": "Cancha de la Universidad Javeriana",
+          "local": {
+            "nombre": "Javeriana FC",
+            "institucion": "Pontificia Universidad Javeriana"
+          },
+          "visitante": {
+            "nombre": "Seneca Futbol Mayores A",
+            "institucion": "Club Deportivo Seneca",
+            "equipoClub": {
+              "nombre": "Seneca Futbol Mayores A",
+              "cupoMaximo": 18,
+              "deporte": {
+                "nombre": "Futbol",
+                "minimoJugadoresHabilitados": 7
+              },
+              "categoria": {
+                "nombre": "Mayores",
+                "edadMinima": 18,
+                "edadMaxima": 99
+              },
+              "jugadores": [
+                {
+                  "jugador": {
+                    "identificacion": "S-001",
+                    "nombre": "Socio de prueba",
+                    "edad": 20,
+                    "login": "socio",
+                    "password": "socio123"
+                  },
+                  "posicion": "Portero",
+                  "numeroCamiseta": 1,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-002",
+                    "nombre": "Valentina Rojas",
+                    "edad": 21,
+                    "login": "vrojas",
+                    "password": "vrojas123"
+                  },
+                  "posicion": "Defensa",
+                  "numeroCamiseta": 2,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-003",
+                    "nombre": "Andres Gomez",
+                    "edad": 23,
+                    "login": "agomez",
+                    "password": "agomez123"
+                  },
+                  "posicion": "Defensa",
+                  "numeroCamiseta": 3,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-004",
+                    "nombre": "Camila Herrera",
+                    "edad": 19,
+                    "login": "cherrera",
+                    "password": "cherrera123"
+                  },
+                  "posicion": "Defensa",
+                  "numeroCamiseta": 4,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-005",
+                    "nombre": "Santiago Pardo",
+                    "edad": 22,
+                    "login": "spardo",
+                    "password": "spardo123"
+                  },
+                  "posicion": "Mediocampista",
+                  "numeroCamiseta": 8,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-006",
+                    "nombre": "Mariana Lopez",
+                    "edad": 20,
+                    "login": "mlopez",
+                    "password": "mlopez123"
+                  },
+                  "posicion": "Mediocampista",
+                  "numeroCamiseta": 10,
+                  "amarillasAcumuladas": 1,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-007",
+                    "nombre": "Juan Pablo Diaz",
+                    "edad": 24,
+                    "login": "jdiaz",
+                    "password": "jdiaz123"
+                  },
+                  "posicion": "Delantero",
+                  "numeroCamiseta": 9,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                },
+                {
+                  "jugador": {
+                    "identificacion": "S-008",
+                    "nombre": "Daniela Castro",
+                    "edad": 18,
+                    "login": "dcastro",
+                    "password": "dcastro123"
+                  },
+                  "posicion": "Delantero",
+                  "numeroCamiseta": 11,
+                  "amarillasAcumuladas": 0,
+                  "suspendidoProximoPartido": false
+                }
+              ]
+            }
+          },
+          "marcadorLocal": 0,
+          "marcadorVisitante": 0,
+          "jugado": false
+        }
+      ],
+      "tipo": "liga"
+    }
+  ],
+  "instalaciones": [
+    {
+      "nombreCancha": "Cancha de tenis 1",
+      "deporte": "Tenis",
+      "disponible": true
+    },
+    {
+      "nombreCancha": "Cancha de tenis 2",
+      "deporte": "Tenis",
+      "disponible": true
+    },
+    {
+      "nombreCancha": "Cancha de padel 1",
+      "deporte": "Padel",
+      "disponible": true
+    },
+    {
+      "nombreCancha": "Mesa de tenis de mesa 1",
+      "deporte": "Tenis de Mesa",
+      "disponible": true
+    },
+    {
+      "nombreCancha": "Mesa de tenis de mesa 2",
+      "deporte": "Tenis de Mesa",
+      "disponible": true
+    }
+  ],
+  "disciplinas": [
+    {
+      "nombre": "Tenis",
+      "maximoInstalacionesSimultaneas": 2
+    },
+    {
+      "nombre": "Padel",
+      "maximoInstalacionesSimultaneas": 1
+    },
+    {
+      "nombre": "Tenis de Mesa",
+      "maximoInstalacionesSimultaneas": 2
+    }
+  ],
+  "inscripcionesDisciplina": [
+    {
+      "socio": {
+        "identificacion": "S-002",
+        "nombre": "Valentina Rojas",
+        "edad": 21,
+        "login": "vrojas",
+        "password": "vrojas123"
+      },
+      "disciplina": {
+        "nombre": "Tenis",
+        "maximoInstalacionesSimultaneas": 2
+      },
+      "nivel": "Avanzado",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-003",
+        "nombre": "Andres Gomez",
+        "edad": 23,
+        "login": "agomez",
+        "password": "agomez123"
+      },
+      "disciplina": {
+        "nombre": "Tenis",
+        "maximoInstalacionesSimultaneas": 2
+      },
+      "nivel": "Intermedio",
+      "puntajeRanking": 1020
+    },
+    {
+      "socio": {
+        "identificacion": "S-004",
+        "nombre": "Camila Herrera",
+        "edad": 19,
+        "login": "cherrera",
+        "password": "cherrera123"
+      },
+      "disciplina": {
+        "nombre": "Tenis",
+        "maximoInstalacionesSimultaneas": 2
+      },
+      "nivel": "Principiante",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-005",
+        "nombre": "Santiago Pardo",
+        "edad": 22,
+        "login": "spardo",
+        "password": "spardo123"
+      },
+      "disciplina": {
+        "nombre": "Tenis",
+        "maximoInstalacionesSimultaneas": 2
+      },
+      "nivel": "Intermedio",
+      "puntajeRanking": 980
+    },
+    {
+      "socio": {
+        "identificacion": "S-006",
+        "nombre": "Mariana Lopez",
+        "edad": 20,
+        "login": "mlopez",
+        "password": "mlopez123"
+      },
+      "disciplina": {
+        "nombre": "Padel",
+        "maximoInstalacionesSimultaneas": 1
+      },
+      "nivel": "Intermedio",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-007",
+        "nombre": "Juan Pablo Diaz",
+        "edad": 24,
+        "login": "jdiaz",
+        "password": "jdiaz123"
+      },
+      "disciplina": {
+        "nombre": "Padel",
+        "maximoInstalacionesSimultaneas": 1
+      },
+      "nivel": "Intermedio",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-008",
+        "nombre": "Daniela Castro",
+        "edad": 18,
+        "login": "dcastro",
+        "password": "dcastro123"
+      },
+      "disciplina": {
+        "nombre": "Padel",
+        "maximoInstalacionesSimultaneas": 1
+      },
+      "nivel": "Avanzado",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-010",
+        "nombre": "Laura Moreno",
+        "edad": 22,
+        "login": "lmoreno",
+        "password": "lmoreno123"
+      },
+      "disciplina": {
+        "nombre": "Padel",
+        "maximoInstalacionesSimultaneas": 1
+      },
+      "nivel": "Principiante",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-001",
+        "nombre": "Socio de prueba",
+        "edad": 20,
+        "login": "socio",
+        "password": "socio123"
+      },
+      "disciplina": {
+        "nombre": "Tenis de Mesa",
+        "maximoInstalacionesSimultaneas": 2
+      },
+      "nivel": "Principiante",
+      "puntajeRanking": 1000
+    },
+    {
+      "socio": {
+        "identificacion": "S-011",
+        "nombre": "Nicolas Vargas",
+        "edad": 19,
+        "login": "nvargas",
+        "password": "nvargas123"
+      },
+      "disciplina": {
+        "nombre": "Tenis de Mesa",
+        "maximoInstalacionesSimultaneas": 2
+      },
+      "nivel": "Intermedio",
+      "puntajeRanking": 1000
+    }
+  ],
+  "reservas": [
+    {
+      "fecha": "2026-11-01",
+      "horaInicio": 8,
+      "duracionHoras": 2,
+      "cantidadJugadores": 2,
+      "nombreInstalacion": "Cancha de tenis 2",
+      "identificacionSocio": "S-003"
+    },
+    {
+      "fecha": "2026-11-20",
+      "horaInicio": 10,
+      "duracionHoras": 2,
+      "cantidadJugadores": 2,
+      "nombreInstalacion": "Cancha de tenis 1",
+      "identificacionSocio": "S-002"
+    },
+    {
+      "fecha": "2026-11-20",
+      "horaInicio": 16,
+      "duracionHoras": 1,
+      "cantidadJugadores": 4,
+      "nombreInstalacion": "Cancha de padel 1",
+      "identificacionSocio": "S-006"
+    }
+  ],
+  "partidosPractica": [
+    {
+      "reservaAsociada": {
+        "fecha": "2026-11-01",
+        "horaInicio": 8,
+        "duracionHoras": 2,
+        "cantidadJugadores": 2,
+        "nombreInstalacion": "Cancha de tenis 2",
+        "identificacionSocio": "S-003"
+      },
+      "jugadoresConfirmados": [
+        {
+          "identificacion": "S-003",
+          "nombre": "Andres Gomez",
+          "edad": 23,
+          "login": "agomez",
+          "password": "agomez123"
+        },
+        {
+          "identificacion": "S-005",
+          "nombre": "Santiago Pardo",
+          "edad": 22,
+          "login": "spardo",
+          "password": "spardo123"
+        }
+      ],
+      "resultadoFinal": "6-4, 6-3"
+    },
+    {
+      "reservaAsociada": {
+        "fecha": "2026-11-20",
+        "horaInicio": 10,
+        "duracionHoras": 2,
+        "cantidadJugadores": 2,
+        "nombreInstalacion": "Cancha de tenis 1",
+        "identificacionSocio": "S-002"
+      },
+      "jugadoresConfirmados": [
+        {
+          "identificacion": "S-002",
+          "nombre": "Valentina Rojas",
+          "edad": 21,
+          "login": "vrojas",
+          "password": "vrojas123"
+        },
+        {
+          "identificacion": "S-003",
+          "nombre": "Andres Gomez",
+          "edad": 23,
+          "login": "agomez",
+          "password": "agomez123"
+        }
+      ],
+      "resultadoFinal": "Pendiente"
+    }
+  ],
+  "sesionesEntrenamiento": [
+    {
+      "fecha": "2026-11-05",
+      "horaInicio": 7,
+      "entrenadorACargo": {
+        "codigoDescuento": "ENT-001",
+        "login": "entrenador",
+        "password": "ent123"
+      },
+      "instalacion": {
+        "nombreCancha": "Cancha de tenis 2",
+        "deporte": "Tenis",
+        "disponible": true
+      },
+      "jugadoresConvocados": [
+        {
+          "identificacion": "S-002",
+          "nombre": "Valentina Rojas",
+          "edad": 21,
+          "login": "vrojas",
+          "password": "vrojas123"
+        },
+        {
+          "identificacion": "S-003",
+          "nombre": "Andres Gomez",
+          "edad": 23,
+          "login": "agomez",
+          "password": "agomez123"
+        },
+        {
+          "identificacion": "S-004",
+          "nombre": "Camila Herrera",
+          "edad": 19,
+          "login": "cherrera",
+          "password": "cherrera123"
+        }
+      ],
+      "asistencias": [
+        {
+          "socio": {
+            "identificacion": "S-002",
+            "nombre": "Valentina Rojas",
+            "edad": 21,
+            "login": "vrojas",
+            "password": "vrojas123"
+          },
+          "estado": "ASISTIO",
+          "nota": 5,
+          "comentario": "Muy buen saque y desplazamiento"
+        },
+        {
+          "socio": {
+            "identificacion": "S-003",
+            "nombre": "Andres Gomez",
+            "edad": 23,
+            "login": "agomez",
+            "password": "agomez123"
+          },
+          "estado": "LLEGO_TARDE",
+          "nota": 3,
+          "comentario": "Debe trabajar el reves"
+        },
+        {
+          "socio": {
+            "identificacion": "S-004",
+            "nombre": "Camila Herrera",
+            "edad": 19,
+            "login": "cherrera",
+            "password": "cherrera123"
+          },
+          "estado": "FALTO"
+        }
+      ]
+    }
+  ],
   "administracion": {
-    "articulos": [],
-    "productosCafeteria": [],
-    "ventas": [],
-    "turnos": [],
-    "solicitudesCambio": [],
-    "sugerencias": [],
-    "puntosFidelidad": {},
+    "articulos": [
+      {
+        "nombre": "Balon de futbol",
+        "categoria": "Balones",
+        "precio": 85000.0,
+        "existencias": [
+          {
+            "cantidad": 12,
+            "ubicacion": {
+              "nombre": "Tienda"
+            }
+          },
+          {
+            "cantidad": 30,
+            "ubicacion": {
+              "nombre": "Bodega"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Raqueta de tenis",
+        "categoria": "Raquetas",
+        "precio": 320000.0,
+        "existencias": [
+          {
+            "cantidad": 5,
+            "ubicacion": {
+              "nombre": "Tienda"
+            }
+          },
+          {
+            "cantidad": 10,
+            "ubicacion": {
+              "nombre": "Bodega"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Tubo de pelotas de tenis",
+        "categoria": "Pelotas",
+        "precio": 25000.0,
+        "existencias": [
+          {
+            "cantidad": 18,
+            "ubicacion": {
+              "nombre": "Tienda"
+            }
+          },
+          {
+            "cantidad": 40,
+            "ubicacion": {
+              "nombre": "Bodega"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Camiseta oficial del club",
+        "categoria": "Uniformes",
+        "precio": 60000.0,
+        "existencias": [
+          {
+            "cantidad": 25,
+            "ubicacion": {
+              "nombre": "Tienda"
+            }
+          },
+          {
+            "cantidad": 50,
+            "ubicacion": {
+              "nombre": "Bodega"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Malla de voleibol",
+        "categoria": "Mallas",
+        "precio": 150000.0,
+        "existencias": [
+          {
+            "cantidad": 2,
+            "ubicacion": {
+              "nombre": "Tienda"
+            }
+          },
+          {
+            "cantidad": 4,
+            "ubicacion": {
+              "nombre": "Bodega"
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Paleta de padel",
+        "categoria": "Raquetas",
+        "precio": 280000.0,
+        "existencias": [
+          {
+            "cantidad": 4,
+            "ubicacion": {
+              "nombre": "Tienda"
+            }
+          }
+        ]
+      }
+    ],
+    "productosCafeteria": [
+      {
+        "caliente": true,
+        "nombre": "Cafe",
+        "precio": 4000.0,
+        "cantidadDisponible": 50,
+        "tipo": "bebida"
+      },
+      {
+        "caliente": true,
+        "nombre": "Chocolate caliente",
+        "precio": 5000.0,
+        "cantidadDisponible": 30,
+        "tipo": "bebida"
+      },
+      {
+        "caliente": false,
+        "nombre": "Agua",
+        "precio": 3000.0,
+        "cantidadDisponible": 79,
+        "tipo": "bebida"
+      },
+      {
+        "caliente": false,
+        "nombre": "Bebida hidratante",
+        "precio": 6000.0,
+        "cantidadDisponible": 40,
+        "tipo": "bebida"
+      },
+      {
+        "alergenos": [
+          "mani"
+        ],
+        "nombre": "Mani salado",
+        "precio": 3500.0,
+        "cantidadDisponible": 40,
+        "tipo": "snack"
+      },
+      {
+        "alergenos": [
+          "gluten",
+          "lacteos"
+        ],
+        "nombre": "Galletas de avena",
+        "precio": 4000.0,
+        "cantidadDisponible": 34,
+        "tipo": "snack"
+      },
+      {
+        "alergenos": [
+          "gluten",
+          "lacteos"
+        ],
+        "nombre": "Sandwich de pollo",
+        "precio": 9000.0,
+        "cantidadDisponible": 20,
+        "tipo": "snack"
+      },
+      {
+        "alergenos": [],
+        "nombre": "Fruta picada",
+        "precio": 5000.0,
+        "cantidadDisponible": 15,
+        "tipo": "snack"
+      }
+    ],
+    "ventas": [
+      {
+        "iva": 0.19,
+        "codigoDescuentoUsado": "",
+        "items": [
+          {
+            "articulo": {
+              "nombre": "Tubo de pelotas de tenis",
+              "categoria": "Pelotas",
+              "precio": 25000.0,
+              "existencias": [
+                {
+                  "cantidad": 18,
+                  "ubicacion": {
+                    "nombre": "Tienda"
+                  }
+                },
+                {
+                  "cantidad": 40,
+                  "ubicacion": {
+                    "nombre": "Bodega"
+                  }
+                }
+              ]
+            },
+            "cantidad": 2,
+            "precioUnitario": 25000.0
+          }
+        ],
+        "fecha": "2026-11-02",
+        "identificacionComprador": "S-002",
+        "compradorSocio": true,
+        "subtotal": 50000.0,
+        "descuento": 0.0,
+        "impuestos": 9500.0,
+        "total": 59500.0,
+        "puntosGenerados": 1000,
+        "puntosRedimidos": 0,
+        "registrada": true,
+        "tipo": "tienda"
+      },
+      {
+        "impuestoConsumo": 0.08,
+        "propina": 0.1,
+        "items": [
+          {
+            "producto": {
+              "caliente": false,
+              "nombre": "Agua",
+              "precio": 3000.0,
+              "cantidadDisponible": 79,
+              "tipo": "bebida"
+            },
+            "cantidad": 1,
+            "precioUnitario": 3000.0
+          },
+          {
+            "producto": {
+              "alergenos": [
+                "gluten",
+                "lacteos"
+              ],
+              "nombre": "Galletas de avena",
+              "precio": 4000.0,
+              "cantidadDisponible": 34,
+              "tipo": "snack"
+            },
+            "cantidad": 1,
+            "precioUnitario": 4000.0
+          }
+        ],
+        "fecha": "2026-11-03",
+        "identificacionComprador": "S-003",
+        "compradorSocio": true,
+        "subtotal": 7000.0,
+        "descuento": 0.0,
+        "impuestos": 560.0,
+        "total": 8260.0,
+        "puntosGenerados": 140,
+        "puntosRedimidos": 0,
+        "registrada": true,
+        "tipo": "cafeteria"
+      }
+    ],
+    "turnos": [
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "LUNES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "LUNES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "LUNES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "LUNES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "LUNES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "LUNES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MARTES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MARTES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MARTES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MARTES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "MARTES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "MARTES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MIERCOLES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MIERCOLES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MIERCOLES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "MIERCOLES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "MIERCOLES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "MIERCOLES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "JUEVES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "JUEVES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "JUEVES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "JUEVES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "JUEVES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "JUEVES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "VIERNES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "VIERNES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "VIERNES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "VIERNES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "VIERNES",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "VIERNES",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "SABADO",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "SABADO",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "SABADO",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "SABADO",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "SABADO",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "SABADO",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "entrenador",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "DOMINGO",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "cmendoza",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "DOMINGO",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "DOMINGO",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "dsalazar",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "DOMINGO",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "fisioterapeuta",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "DOMINGO",
+        "horaInicio": "06:00",
+        "horaFin": "14:00"
+      },
+      {
+        "identificacionEmpleado": "pcorrea",
+        "tipoEmpleado": "FISIOTERAPEUTA",
+        "diaSemana": "DOMINGO",
+        "horaInicio": "14:00",
+        "horaFin": "22:00"
+      },
+      {
+        "identificacionEmpleado": "lrestrepo",
+        "tipoEmpleado": "ENTRENADOR",
+        "diaSemana": "LUNES",
+        "horaInicio": "10:00",
+        "horaFin": "14:00"
+      }
+    ],
+    "solicitudesCambio": [
+      {
+        "fecha": "2026-11-08",
+        "estado": "PENDIENTE",
+        "turnoActual": {
+          "identificacionEmpleado": "lrestrepo",
+          "tipoEmpleado": "ENTRENADOR",
+          "diaSemana": "LUNES",
+          "horaInicio": "10:00",
+          "horaFin": "14:00"
+        },
+        "turnoPropuesto": {
+          "identificacionEmpleado": "lrestrepo",
+          "tipoEmpleado": "ENTRENADOR",
+          "diaSemana": "LUNES",
+          "horaInicio": "08:00",
+          "horaFin": "12:00"
+        }
+      }
+    ],
+    "sugerencias": [
+      {
+        "nombre": "Termo deportivo",
+        "descripcion": "Termo de un litro con el escudo del club",
+        "tipo": "Articulo",
+        "identificacionEmpleado": "cmendoza",
+        "estado": "PENDIENTE"
+      },
+      {
+        "nombre": "Barra de proteina",
+        "descripcion": "Snack para despues de entrenar",
+        "tipo": "Snack",
+        "identificacionEmpleado": "fisioterapeuta",
+        "estado": "APROBADA"
+      }
+    ],
+    "puntosFidelidad": {
+      "S-001": 5000,
+      "S-002": 1000,
+      "S-003": 140
+    },
     "codigosDescuento": {
       "ENT-001": "entrenador",
-      "FIS-001": "fisioterapeuta"
+      "FIS-001": "fisioterapeuta",
+      "FIS-002": "pcorrea",
+      "ENT-002": "cmendoza",
+      "ENT-003": "lrestrepo",
+      "ENT-004": "dsalazar"
     },
-    "mensualidades": {},
+    "mensualidades": {
+      "2026-10-05": 1800000.0,
+      "2026-11-05": 1950000.0
+    },
     "ubicacionTienda": {
       "nombre": "Tienda"
     },

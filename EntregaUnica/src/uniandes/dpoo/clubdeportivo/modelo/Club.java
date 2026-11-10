@@ -383,6 +383,9 @@ public class Club {
 		if (partidosPractica == null) partidosPractica = new ArrayList<PartidoPractica>();
 		if (sesionesEntrenamiento == null) sesionesEntrenamiento = new ArrayList<SesionEntrenamiento>();
    		if (torneos == null) torneos = new ArrayList<Torneo>();
+		for (Torneo torneo : torneos) {
+			torneo.prepararDatos();
+		}
 		if (administracion == null) {
 			administracion = new AdministracionComercial(new UbicacionInventario("Tienda"),
 					LocalTime.of(6, 0), LocalTime.of(22, 0));

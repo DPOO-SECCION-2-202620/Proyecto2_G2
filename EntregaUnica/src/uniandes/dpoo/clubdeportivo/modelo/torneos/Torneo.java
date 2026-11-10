@@ -240,6 +240,18 @@ public abstract class Torneo {
 		return resultado;
 	}
 	
+	public void prepararDatos() {
+		if (inscritos == null) inscritos = new ArrayList<ParticipanteTorneo>();
+		if (elegiblesPreferenciales == null) elegiblesPreferenciales = new ArrayList<String>();
+		if (inscritosPreferenciales == null) inscritosPreferenciales = new ArrayList<String>();
+		if (historial == null) historial = new ArrayList<String>();
+		if (encuentros == null) encuentros = new ArrayList<EncuentroTorneo>();
+		if (ganador != null) {
+			ParticipanteTorneo inscrito = buscarInscrito(ganador.getIdentificacion());
+			if (inscrito != null) ganador = inscrito;
+		}
+	}
+	
 	protected void registrarEvento(LocalDate fecha, String descripcion) {
 		historial.add(fecha + " - " + descripcion);
 	}

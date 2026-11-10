@@ -28,6 +28,9 @@ import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaBaloncesto;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaFutbol;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaPartido;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaVoleibol;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.Torneo;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.TorneoCompetitivo;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.TorneoRecreativo;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Administrador;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Entrenador;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Fisioterapeuta;
@@ -57,6 +60,7 @@ public class PersistenciaClub {
 		constructor.registerTypeAdapter(LocalTime.class, new AdaptadorLocalTime());
 		constructor.registerTypeAdapter(Usuario.class, adaptador(Usuario.class, tiposUsuarios()));
 		constructor.registerTypeAdapter(Competencia.class, adaptador(Competencia.class, tiposCompetencia()));
+		constructor.registerTypeAdapter(Torneo.class, adaptador(Torneo.class, tiposTorneo()));
 		constructor.registerTypeAdapter(EstadisticaPartido.class, adaptador(EstadisticaPartido.class, tiposEstadistica()));
 		constructor.registerTypeAdapter(ProductoCafeteria.class, adaptador(ProductoCafeteria.class, tiposProductos()));
 		constructor.registerTypeAdapter(Venta.class, adaptador(Venta.class, tiposVentas()));
@@ -113,6 +117,13 @@ public class PersistenciaClub {
 		return tipos;
 	}
 
+	private Map<String, Class<? extends Torneo>> tiposTorneo() {
+		Map<String, Class<? extends Torneo>> tipos = new HashMap<String, Class<? extends Torneo>>();
+		tipos.put("recreativo", TorneoRecreativo.class);
+		tipos.put("competitivo", TorneoCompetitivo.class);
+		return tipos;
+	}
+	
 	private Map<String, Class<? extends EstadisticaPartido>> tiposEstadistica() {
 		Map<String, Class<? extends EstadisticaPartido>> tipos = new HashMap<String, Class<? extends EstadisticaPartido>>();
 		tipos.put("futbol", EstadisticaFutbol.class);

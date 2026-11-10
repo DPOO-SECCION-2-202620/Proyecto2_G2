@@ -32,6 +32,7 @@ import uniandes.dpoo.clubdeportivo.modelo.equipos.Equipo;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaPartido;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.JugadorEquipo;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.Partido;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.EncuentroTorneo;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.ParticipanteTorneo;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.TipoParticipante;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.Torneo;
@@ -838,6 +839,42 @@ public class Club {
 		ParticipanteTorneo participante = new ParticipanteTorneo(equipo.getNombre(), equipo.getNombre(),
 				TipoParticipante.EQUIPO, Vinculacion.SOCIO, integrantes, sumaRanking / nomina.size());
 		return torneo.inscribir(participante, fecha);
+	}
+	
+	public String consultarTorneo(String nombre, String idParticipante, LocalDate fechaFiltro, LocalDate hoy) {
+		Torneo torneo = buscarTorneo(nombre);
+		if (torneo == null) {
+			return "No se encontro el torneo: " + nombre;
+		}
+		StringBuilder texto = new StringBuilder();
+		texto.append("Torneo: ").append(torneo.getNombre());
+		texto.append(torneo.esCompetitivo() ? " (competitivo)" : " (recreativo)").append("\n");
+		texto.append("Deporte o disciplina: ").append(torneo.getDeporteODisciplina());
+		texto.append(" | Categoria o nivel: ").append(torneo.getCategoriaONivel());
+		texto.append(" | Modalidad: ").append(torneo.getModalidad()).append("\n");
+		texto.append("Fechas: ").append(torneo.getFechaInicio()).append(" a ").append(torneo.getFechaFin());
+		texto.append(" | Estado: ").append(torneo.getEstado(hoy));
+		texto.append(" | Cupos disponibles: ").append(torneo.getCuposDisponibles()).append("\n");
+		texto.append("Participantes:\n");
+		for (ParticipanteTorneo participante : torneo.getInscritos()) {
+			texto.append("  - ").append(participante).append("\n");
+		}
+		texto.append("Encuentros:\n");
+		List<EncuentroTorneo> encuentros = idParticipante == null ? torneo.getEncuentros()
+				: torneo.getEncuentrosDe(idParticipante);
+		for (EncuentroTorneo encuentro : encuentros) {
+			if (fechaFiltro == null || encuentro.getFecha().equals(fechaFiltro)) {
+				texto.append("  - ").append(encuentro).append("\n");
+			}
+		}
+		ParticipanteTorneo ganador = torneo.getGanador();
+		texto.append("Ganador: ").append(ganador == null ? "sin definir" : ganador.getNombre()).append("\n");
+		texto.append("Historial:\n");
+		List<String> historial = fechaFiltro == null ? torneo.getHistorial() : torneo.getHistorialDelDia(fechaFiltro);
+		for (String evento : historial) {
+			texto.append("  ").append(evento).append("\n");
+		}
+		return texto.toString();
 	}
 	
 	public int getVersion() {

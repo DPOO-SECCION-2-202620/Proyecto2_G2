@@ -18,6 +18,7 @@ public abstract class Torneo {
 	private List<String> elegiblesPreferenciales;
 	private List<String> inscritosPreferenciales;
 	private List<String> historial;
+	private List<EncuentroTorneo> encuentros;
 	private ParticipanteTorneo ganador;
 	private boolean resultadosCerrados;
 
@@ -35,6 +36,7 @@ public abstract class Torneo {
 		this.elegiblesPreferenciales = new ArrayList<String>();
 		this.inscritosPreferenciales = new ArrayList<String>();
 		this.historial = new ArrayList<String>();
+		this.encuentros = new ArrayList<EncuentroTorneo>();
 		this.ganador = null;
 		this.resultadosCerrados = false;
 	}
@@ -180,6 +182,64 @@ public abstract class Torneo {
 		return true;
 	}
 
+	public boolean programarEncuentro(String idLocal, String idVisitante, String escenario, LocalDate fecha) {
+		ParticipanteTorneo local = buscarInscrito(idLocal);
+		ParticipanteTorneo visitante = buscarInscrito(idVisitante);
+		if (local == null || visitante == null || local == visitante) {
+			return false;
+		}
+		if (escenario == null || escenario.isBlank() || fecha == null) {
+			return false;
+		}
+		if (fecha.isBefore(fechaInicio) || fecha.isAfter(fechaFin)) {
+			return false;
+		}
+		encuentros.add(new EncuentroTorneo(local, visitante, escenario, fecha));
+		registrarEvento(fecha, "Encuentro programado: " + local.getNombre() + " vs " + visitante.getNombre()
+				+ " en " + escenario);
+		return true;
+	}
+
+	public boolean registrarResultado(int numeroEncuentro, int marcadorLocal, int marcadorVisitante,
+			LocalDate fecha) {
+		if (getEstado(fecha) != EstadoTorneo.EN_CURSO) {
+			return false;
+		}
+		if (numeroEncuentro < 1 || numeroEncuentro > encuentros.size()) {
+			return false;
+		}
+		EncuentroTorneo encuentro = encuentros.get(numeroEncuentro - 1);
+		if (encuentro.registrarResultado(marcadorLocal, marcadorVisitante) == false) {
+			return false;
+		}
+		registrarEvento(fecha, "Resultado: " + encuentro);
+		return true;
+	}
+
+	public List<EncuentroTorneo> getEncuentros() {
+		return new ArrayList<EncuentroTorneo>(encuentros);
+	}
+
+	public List<EncuentroTorneo> getEncuentrosDe(String identificacion) {
+		List<EncuentroTorneo> resultado = new ArrayList<EncuentroTorneo>();
+		for (EncuentroTorneo encuentro : encuentros) {
+			if (encuentro.involucra(identificacion)) {
+				resultado.add(encuentro);
+			}
+		}
+		return resultado;
+	}
+
+	public List<String> getHistorialDelDia(LocalDate fecha) {
+		List<String> resultado = new ArrayList<String>();
+		for (String evento : historial) {
+			if (evento.startsWith(fecha.toString())) {
+				resultado.add(evento);
+			}
+		}
+		return resultado;
+	}
+	
 	protected void registrarEvento(LocalDate fecha, String descripcion) {
 		historial.add(fecha + " - " + descripcion);
 	}

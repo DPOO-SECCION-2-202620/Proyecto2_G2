@@ -1,7 +1,7 @@
 package uniandes.dpoo.clubdeportivo.modelo.torneos;
 
 public enum EstadoTorneo {
-	NO_INICIADO,
+	ABIERTO,
 	EN_CURSO,
 	FINALIZADO
 }

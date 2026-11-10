@@ -32,12 +32,17 @@ import uniandes.dpoo.clubdeportivo.modelo.equipos.Equipo;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaPartido;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.JugadorEquipo;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.Partido;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.ParticipanteTorneo;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.TipoParticipante;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.Torneo;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.Vinculacion;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Administrador;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Entrenador;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Empleado;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Fisioterapeuta;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Socio;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Usuario;
+import uniandes.dpoo.clubdeportivo.modelo.usuarios.UsuarioExterno;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.ArticuloTienda;
 
 public class Club {
@@ -54,6 +59,7 @@ public class Club {
 	private ArrayList<PartidoPractica> partidosPractica;
 	private ArrayList<SesionEntrenamiento> sesionesEntrenamiento;
 	private AdministracionComercial administracion;
+   	private ArrayList<Torneo> torneos;
 
 	public Club() {
 		version = 1;
@@ -67,6 +73,7 @@ public class Club {
 		reservas = new ArrayList<Reserva>();
 		partidosPractica = new ArrayList<PartidoPractica>();
 		sesionesEntrenamiento = new ArrayList<SesionEntrenamiento>();
+   		torneos = new ArrayList<Torneo>();
 		administracion = new AdministracionComercial(new UbicacionInventario("Tienda"), LocalTime.of(6, 0), LocalTime.of(22, 0));
 	}
 
@@ -370,6 +377,7 @@ public class Club {
 		if (reservas == null) reservas = new ArrayList<Reserva>();
 		if (partidosPractica == null) partidosPractica = new ArrayList<PartidoPractica>();
 		if (sesionesEntrenamiento == null) sesionesEntrenamiento = new ArrayList<SesionEntrenamiento>();
+   		if (torneos == null) torneos = new ArrayList<Torneo>();
 		if (administracion == null) {
 			administracion = new AdministracionComercial(new UbicacionInventario("Tienda"),
 					LocalTime.of(6, 0), LocalTime.of(22, 0));
@@ -655,6 +663,183 @@ public class Club {
 		this.administracion = administracion;
 	}
 
+	public static final double RANKING_INICIAL = 1000;
+
+	public boolean crearTorneo(Torneo torneo) {
+		if (torneo == null || torneo.esValido() == false || buscarTorneo(torneo.getNombre()) != null) {
+			return false;
+		}
+		torneos.add(torneo);
+		return true;
+	}
+
+	public Torneo buscarTorneo(String nombre) {
+		for (Torneo torneo : torneos) {
+			if (nombre != null && nombre.equalsIgnoreCase(torneo.getNombre())) {
+				return torneo;
+			}
+		}
+		return null;
+	}
+
+	public List<Torneo> getTorneos() {
+		return torneos;
+	}
+
+	public void setTorneos(ArrayList<Torneo> torneos) {
+		this.torneos = torneos == null ? new ArrayList<Torneo>() : torneos;
+	}
+
+	public boolean empleadoTieneTurno(String login, LocalDate fecha) {
+		String[] dias = { "LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES", "SABADO", "DOMINGO" };
+		String dia = dias[fecha.getDayOfWeek().getValue() - 1];
+		for (Turno turno : administracion.getTurnos()) {
+			if (login != null && login.equals(turno.getIdentificacionEmpleado()) && dia.equals(turno.getDiaSemana())) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public boolean empleadoTieneTurnoDuranteTorneo(String login, Torneo torneo) {
+		LocalDate dia = torneo.getFechaInicio();
+		while (dia.isAfter(torneo.getFechaFin()) == false) {
+			if (empleadoTieneTurno(login, dia)) {
+				return true;
+			}
+			dia = dia.plusDays(1);
+		}
+		return false;
+	}
+
+	public double rankingDe(String identificacion, String disciplina) {
+		for (InscripcionDisciplina inscripcion : inscripcionesDisciplina) {
+			if (inscripcion.getSocio() != null && inscripcion.getDisciplina() != null
+					&& inscripcion.getSocio().getIdentificacion().equals(identificacion)
+					&& inscripcion.getDisciplina().getNombre().equalsIgnoreCase(disciplina)) {
+				return inscripcion.getPuntajeRanking();
+			}
+		}
+		return RANKING_INICIAL;
+	}
+
+	public String identificacionDe(Usuario usuario) {
+		if (usuario instanceof Socio) {
+			return ((Socio) usuario).getIdentificacion();
+		}
+		if (usuario instanceof UsuarioExterno) {
+			return ((UsuarioExterno) usuario).getIdentificacion();
+		}
+		return usuario.getLogin();
+	}
+
+	public String nombreDe(Usuario usuario) {
+		if (usuario instanceof Socio) {
+			return ((Socio) usuario).getNombre();
+		}
+		if (usuario instanceof UsuarioExterno) {
+			return ((UsuarioExterno) usuario).getNombre();
+		}
+		return usuario.getLogin();
+	}
+
+	public Vinculacion vinculacionDe(Usuario usuario) {
+		if (usuario instanceof Socio) {
+			return Vinculacion.SOCIO;
+		}
+		if (usuario instanceof Empleado) {
+			return Vinculacion.EMPLEADO;
+		}
+		if (usuario instanceof UsuarioExterno) {
+			Vinculacion vinculacion = ((UsuarioExterno) usuario).getVinculacion();
+			if (vinculacion == Vinculacion.ESTUDIANTE || vinculacion == Vinculacion.EXTERNO) {
+				return vinculacion;
+			}
+		}
+		return null;
+	}
+
+	public boolean inscribirEnTorneo(String nombreTorneo, Usuario usuario, Usuario pareja, LocalDate fecha) {
+		Torneo torneo = buscarTorneo(nombreTorneo);
+		if (torneo == null || torneo.getModalidad() == TipoParticipante.EQUIPO) {
+			return false;
+		}
+		List<Usuario> personas = new ArrayList<Usuario>();
+		personas.add(usuario);
+		if (torneo.getModalidad() == TipoParticipante.PAREJA) {
+			if (pareja == null || pareja == usuario) {
+				return false;
+			}
+			personas.add(pareja);
+		} else if (pareja != null) {
+			return false;
+		}
+		List<String> integrantes = new ArrayList<String>();
+		String nombre = "";
+		double sumaRanking = 0;
+		boolean hayEmpleado = false;
+		for (Usuario persona : personas) {
+			if (persona == null || usuarios.contains(persona) == false || vinculacionDe(persona) == null) {
+				return false;
+			}
+			if (persona instanceof Empleado) {
+				if (empleadoTieneTurnoDuranteTorneo(persona.getLogin(), torneo)) {
+					return false;
+				}
+				hayEmpleado = true;
+			}
+			integrantes.add(identificacionDe(persona));
+			nombre = nombre.isEmpty() ? nombreDe(persona) : nombre + " y " + nombreDe(persona);
+			sumaRanking += rankingDe(identificacionDe(persona), torneo.getDeporteODisciplina());
+		}
+		String identificacion = String.join("-", integrantes);
+		Vinculacion vinculacion = hayEmpleado ? Vinculacion.EMPLEADO : vinculacionDe(usuario);
+		ParticipanteTorneo participante = new ParticipanteTorneo(identificacion, nombre, torneo.getModalidad(),
+				vinculacion, integrantes, sumaRanking / personas.size());
+		return torneo.inscribir(participante, fecha);
+	}
+
+	public boolean inscribirEquipoEnTorneo(String nombreTorneo, Entrenador entrenador, Equipo equipo,
+			List<JugadorEquipo> nomina, LocalDate fecha) {
+		Torneo torneo = buscarTorneo(nombreTorneo);
+		if (torneo == null || torneo.getModalidad() != TipoParticipante.EQUIPO) {
+			return false;
+		}
+		if (entrenador == null || usuarios.contains(entrenador) == false || equipo == null
+				|| equipos.contains(equipo) == false) {
+			return false;
+		}
+		if (equipo.getDeporte().getNombre().equalsIgnoreCase(torneo.getDeporteODisciplina()) == false) {
+			return false;
+		}
+		if (equipo.getCategoria().getNombre().equalsIgnoreCase(torneo.getCategoriaONivel()) == false) {
+			return false;
+		}
+		if (nomina == null || nomina.isEmpty()) {
+			return false;
+		}
+		List<String> integrantes = new ArrayList<String>();
+		int habilitados = 0;
+		double sumaRanking = 0;
+		for (JugadorEquipo jugador : nomina) {
+			if (equipo.getJugadores().contains(jugador) == false) {
+				return false;
+			}
+			if (jugador.estaSuspendido() == false) {
+				habilitados++;
+			}
+			String id = jugador.getJugador().getIdentificacion();
+			integrantes.add(id);
+			sumaRanking += rankingDe(id, torneo.getDeporteODisciplina());
+		}
+		if (habilitados < equipo.getDeporte().getMinimoJugadoresHabilitados()) {
+			return false;
+		}
+		ParticipanteTorneo participante = new ParticipanteTorneo(equipo.getNombre(), equipo.getNombre(),
+				TipoParticipante.EQUIPO, Vinculacion.SOCIO, integrantes, sumaRanking / nomina.size());
+		return torneo.inscribir(participante, fecha);
+	}
+	
 	public int getVersion() {
 		return version;
 	}

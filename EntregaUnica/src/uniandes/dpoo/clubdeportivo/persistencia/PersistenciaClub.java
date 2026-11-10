@@ -33,6 +33,7 @@ import uniandes.dpoo.clubdeportivo.modelo.usuarios.Entrenador;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Fisioterapeuta;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Socio;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Usuario;
+import uniandes.dpoo.clubdeportivo.modelo.usuarios.UsuarioExterno;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.Bebida;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.ProductoCafeteria;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.Snack;
@@ -102,6 +103,7 @@ public class PersistenciaClub {
 		tipos.put("entrenador", Entrenador.class);
 		tipos.put("fisioterapeuta", Fisioterapeuta.class);
 		tipos.put("administrador", Administrador.class);
+   		tipos.put("externo", UsuarioExterno.class);
 		return tipos;
 	}
 

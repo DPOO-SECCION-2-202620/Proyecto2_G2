@@ -32,10 +32,12 @@ import uniandes.dpoo.clubdeportivo.modelo.equipos.Equipo;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.EstadisticaPartido;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.JugadorEquipo;
 import uniandes.dpoo.clubdeportivo.modelo.equipos.Partido;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.BonoDescuento;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.EncuentroTorneo;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.ParticipanteTorneo;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.TipoParticipante;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.Torneo;
+import uniandes.dpoo.clubdeportivo.modelo.torneos.TorneoRecreativo;
 import uniandes.dpoo.clubdeportivo.modelo.torneos.Vinculacion;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Administrador;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Entrenador;
@@ -45,6 +47,8 @@ import uniandes.dpoo.clubdeportivo.modelo.usuarios.Socio;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.Usuario;
 import uniandes.dpoo.clubdeportivo.modelo.usuarios.UsuarioExterno;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.ArticuloTienda;
+import uniandes.dpoo.clubdeportivo.modelo.ventas.VentaCafeteria;
+import uniandes.dpoo.clubdeportivo.modelo.ventas.VentaTienda;
 
 public class Club {
 
@@ -875,6 +879,49 @@ public class Club {
 			texto.append("  ").append(evento).append("\n");
 		}
 		return texto.toString();
+	}
+	
+	public boolean entregarBonoTorneo(String nombreTorneo, LocalDate fecha) {
+		Torneo torneo = buscarTorneo(nombreTorneo);
+		if (torneo instanceof TorneoRecreativo == false) {
+			return false;
+		}
+		BonoDescuento bono = ((TorneoRecreativo) torneo).entregarBono(fecha);
+		if (bono == null) {
+			return false;
+		}
+		for (String identificacion : torneo.getGanador().getIntegrantes()) {
+			Socio socio = buscarSocio(identificacion);
+			if (socio != null) {
+				socio.agregarBono(new BonoDescuento("BONO-" + torneo.getNombre() + "-" + identificacion,
+						torneo.getNombre(), identificacion, bono.getValor()));
+			}
+		}
+		return true;
+	}
+
+	public boolean comprarEnTiendaConBono(VentaTienda venta, int puntosRedimidos, String codigoBono) {
+		BonoDescuento bono = buscarBonoDelComprador(venta.getIdentificacionComprador(), codigoBono);
+		if (bono == null) {
+			return false;
+		}
+		return administracion.registrarVentaTienda(venta, puntosRedimidos, bono);
+	}
+
+	public boolean comprarEnCafeteriaConBono(VentaCafeteria venta, int puntosRedimidos, String codigoBono) {
+		BonoDescuento bono = buscarBonoDelComprador(venta.getIdentificacionComprador(), codigoBono);
+		if (bono == null) {
+			return false;
+		}
+		return administracion.registrarVentaCafeteria(venta, puntosRedimidos, bono);
+	}
+
+	private BonoDescuento buscarBonoDelComprador(String identificacion, String codigoBono) {
+		Socio socio = buscarSocio(identificacion);
+		if (socio == null) {
+			return null;
+		}
+		return socio.buscarBono(codigoBono);
 	}
 	
 	public int getVersion() {

@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import uniandes.dpoo.clubdeportivo.modelo.torneos.BonoDescuento;
+
 import uniandes.dpoo.clubdeportivo.modelo.ventas.ArticuloTienda;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.ItemCafeteria;
 import uniandes.dpoo.clubdeportivo.modelo.ventas.ItemVenta;
@@ -122,6 +124,10 @@ public class AdministracionComercial {
 	}
 
 	public boolean registrarVentaTienda(VentaTienda venta, int puntosRedimidos) {
+		return registrarVentaTienda(venta, puntosRedimidos, null);
+	}
+
+	public boolean registrarVentaTienda(VentaTienda venta, int puntosRedimidos, BonoDescuento bono) {
 		if (venta == null || venta.estaRegistrada() || venta.getItems().isEmpty() || ubicacionTienda == null
 				|| venta.getIdentificacionComprador() == null) {
 			return false;
@@ -132,6 +138,9 @@ public class AdministracionComercial {
 			return false;
 		}
 		if (tasaDescuento > 0 && puntosRedimidos > 0) {
+			return false;
+		}
+		if (bonoNoPermitido(bono, tasaDescuento, puntosRedimidos)) {
 			return false;
 		}
 		if (puntosRedimidos < 0 || puntosRedimidos > getPuntosFidelidad(venta.getIdentificacionComprador())) {
@@ -153,7 +162,7 @@ public class AdministracionComercial {
 			}
 		}
 
-		double descuento = redondear(venta.getValorProductos() * tasaDescuento);
+		double descuento = redondear(venta.getValorProductos() * tasaDescuento) + valorBono(bono, venta);
 		if (puntosRedimidos + descuento > venta.getValorProductos()) {
 			return false;
 		}
@@ -165,16 +174,26 @@ public class AdministracionComercial {
 			Existencia existencia = item.getArticulo().getExistencia(ubicacionTienda);
 			existencia.quitarCantidad(item.getCantidad());
 		}
+		if (bono != null) {
+			bono.consumir();
+		}
 		registrarVenta(venta, puntosRedimidos);
 		return true;
 	}
 
 	public boolean registrarVentaCafeteria(VentaCafeteria venta, int puntosRedimidos) {
+		return registrarVentaCafeteria(venta, puntosRedimidos, null);
+	}
+
+	public boolean registrarVentaCafeteria(VentaCafeteria venta, int puntosRedimidos, BonoDescuento bono) {
 		if (venta == null || venta.estaRegistrada() || venta.getItems().isEmpty()
 				|| venta.getIdentificacionComprador() == null) {
 			return false;
 		}
 		if (puntosRedimidos < 0 || puntosRedimidos > getPuntosFidelidad(venta.getIdentificacionComprador())) {
+			return false;
+		}
+		if (bonoNoPermitido(bono, 0, puntosRedimidos)) {
 			return false;
 		}
 
@@ -195,15 +214,32 @@ public class AdministracionComercial {
 		if (puntosRedimidos > venta.getValorProductos()) {
 			return false;
 		}
-		if (venta.calcularTotales(0, puntosRedimidos) == false) {
+		if (venta.calcularTotales(valorBono(bono, venta), puntosRedimidos) == false) {
 			return false;
 		}
 
 		for (ItemCafeteria item : venta.getItems()) {
 			item.getProducto().descontar(item.getCantidad());
 		}
+		if (bono != null) {
+			bono.consumir();
+		}
 		registrarVenta(venta, puntosRedimidos);
 		return true;
+	}
+
+	private boolean bonoNoPermitido(BonoDescuento bono, double tasaDescuento, int puntosRedimidos) {
+		if (bono == null) {
+			return false;
+		}
+		return bono.estaDisponible() == false || tasaDescuento > 0 || puntosRedimidos > 0;
+	}
+
+	private double valorBono(BonoDescuento bono, Venta venta) {
+		if (bono == null) {
+			return 0;
+		}
+		return redondear(Math.min(bono.getValor(), venta.getValorProductos()));
 	}
 
 	private void registrarVenta(Venta venta, int puntosRedimidos) {
